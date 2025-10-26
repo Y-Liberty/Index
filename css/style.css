@@ -1,0 +1,726 @@
+/* ==================== 全局样式 ==================== */
+
+/* 重置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 根元素样式 */
+:root {
+    /* 平衡少儿编程风格 - 多彩但不花哨 */
+    --primary-blue: #4A90E2;         /* 科技蓝 */
+    --primary-purple: #9B6DD6;       /* 梦幻紫 */
+    --primary-pink: #FF6B9D;         /* 活力粉 */
+    --primary-orange: #FF9F40;       /* 活力橙 */
+    --primary-green: #5FD4A0;        /* 清新绿 */
+    --primary-yellow: #FFC93C;       /* 阳光黄 */
+    
+    /* 浅色背景 */
+    --light-blue: #E8F4FD;           
+    --light-purple: #F2EDFF;         
+    --light-pink: #FFE8F1;           
+    --light-orange: #FFF3E0;         
+    --light-green: #E8F9F2;          
+    
+    /* 中性色 */
+    --bg-main: #F8FAFB;              
+    --bg-white: #FFFFFF;             
+    --text-dark: #2C3E50;            
+    --text-gray: #5A6C7D;            
+    --text-light: #7B8794;           
+    --border-light: #E1E8ED;         
+    
+    /* 阴影 */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.1);
+    --shadow-color: 0 10px 25px rgba(74, 144, 226, 0.15);
+    
+    /* 圆角 */
+    --radius-sm: 12px;
+    --radius-md: 16px;
+    --radius-lg: 20px;
+    --radius-xl: 24px;
+    
+    /* 过渡动画 */
+    --transition: all 0.3s ease;
+}
+
+/* body基础样式 - 柔和渐变背景 */
+body {
+    font-family: 'Microsoft YaHei', 'SimHei', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background: linear-gradient(135deg, #E8F4FD 0%, #F2EDFF 50%, #FFE8F1 100%);
+    min-height: 100vh;
+    padding: 30px 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* 添加柔和的装饰圆点 */
+body::before {
+    content: '';
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(74, 144, 226, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    top: 10%;
+    left: 5%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(255, 107, 157, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    bottom: 15%;
+    right: 8%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* 容器 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* 链接默认样式 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* ==================== 头部样式 - 简约风格 ==================== */
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header .container {
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-blue) 100%);
+    padding: 45px 30px;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-color);
+    text-align: center;
+    position: relative;
+    border: 3px solid transparent;
+    background-image: 
+        linear-gradient(white, white),
+        linear-gradient(90deg, var(--primary-blue), var(--primary-purple), var(--primary-pink));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+/* 顶部彩色装饰条 */
+.header .container::before {
+    content: '✨';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+/* 底部装饰条 */
+.header .container::after {
+    content: '💡 编程改变世界 🚀';
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    opacity: 0.7;
+}
+
+/* Logo区域 */
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* 网站标题 - 彩虹渐变 */
+.site-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(90deg, 
+        var(--primary-blue) 0%, 
+        var(--primary-purple) 33%, 
+        var(--primary-pink) 66%, 
+        var(--primary-orange) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* 标语 - 带emoji */
+.tagline {
+    font-size: 1.15rem;
+    color: var(--text-gray);
+    margin-top: 12px;
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.tagline::before {
+    content: '🌟 ';
+}
+
+.tagline::after {
+    content: ' 🎯';
+}
+
+
+/* ==================== 主内容区 - 模块化设计 ==================== */
+
+.main-content {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+/* 区块容器 - 彩色模块 */
+.my-platforms {
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-blue) 100%);
+    border-radius: var(--radius-xl);
+    padding: 35px 30px;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 30px;
+    position: relative;
+    border-left: 5px solid var(--primary-blue);
+}
+
+.practice-platforms {
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-purple) 100%);
+    border-radius: var(--radius-xl);
+    padding: 35px 30px;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 30px;
+    position: relative;
+    border-left: 5px solid var(--primary-purple);
+}
+
+.knowledge-learning {
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-green) 100%);
+    border-radius: var(--radius-xl);
+    padding: 35px 30px;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 30px;
+    position: relative;
+    border-left: 5px solid var(--primary-green);
+}
+
+.programming-tools {
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-orange) 100%);
+    border-radius: var(--radius-xl);
+    padding: 35px 30px;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 30px;
+    position: relative;
+    border-left: 5px solid var(--primary-orange);
+}
+
+/* 区块标题 - 活泼风格 */
+.section-title {
+    font-size: 1.7rem;
+    color: var(--text-dark);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 18px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-blue), var(--primary-purple), var(--primary-pink));
+    border-radius: 10px;
+}
+
+.my-platforms .section-title {
+    color: var(--primary-blue);
+}
+
+.my-platforms .section-title i {
+    color: var(--primary-blue);
+    font-size: 2rem;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.practice-platforms .section-title {
+    color: var(--primary-purple);
+}
+
+.practice-platforms .section-title i {
+    color: var(--primary-purple);
+    font-size: 2rem;
+    animation: pulse 2s ease-in-out infinite 0.3s;
+}
+
+.knowledge-learning .section-title {
+    color: var(--primary-green);
+}
+
+.knowledge-learning .section-title i {
+    color: var(--primary-green);
+    font-size: 2rem;
+    animation: pulse 2s ease-in-out infinite 0.6s;
+}
+
+.programming-tools .section-title {
+    color: var(--primary-orange);
+}
+
+.programming-tools .section-title i {
+    color: var(--primary-orange);
+    font-size: 2rem;
+    animation: pulse 2s ease-in-out infinite 0.9s;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+
+/* ==================== 我的平台区域 ==================== */
+
+/* 平台卡片容器 */
+.platform-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+/* 平台卡片 - 彩色卡片 */
+.platform-card {
+    background: var(--bg-white);
+    border: 2px solid var(--border-light);
+    padding: 32px 28px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 卡片顶部装饰条 */
+.platform-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--primary-blue), var(--primary-purple), var(--primary-pink));
+}
+
+/* 卡片角标 */
+.platform-card::after {
+    content: '⭐';
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+/* 卡片悬停效果 */
+.platform-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: var(--shadow-color);
+}
+
+.platform-card:hover::after {
+    opacity: 0.8;
+}
+
+/* 卡片图标 */
+.card-icon {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* 卡片标题 */
+.card-title {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: var(--text-dark);
+    position: relative;
+    z-index: 1;
+}
+
+/* 卡片副标题 */
+.card-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    color: var(--text-gray);
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+}
+
+/* 卡片描述 */
+.card-description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    color: var(--text-gray);
+    position: relative;
+    z-index: 1;
+}
+
+/* 卡片底部 */
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+/* 卡片链接 */
+.card-link {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--primary-blue);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* 不同卡片的彩色背景和图标 */
+.card-main {
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-blue) 100%);
+    border-color: var(--primary-blue);
+}
+
+.card-main .card-icon {
+    color: var(--primary-blue);
+}
+
+.card-main:hover {
+    box-shadow: 0 12px 30px rgba(74, 144, 226, 0.25);
+}
+
+.card-oj {
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-orange) 100%);
+    border-color: var(--primary-orange);
+}
+
+.card-oj .card-icon {
+    color: var(--primary-orange);
+}
+
+.card-oj:hover {
+    box-shadow: 0 12px 30px rgba(255, 159, 64, 0.25);
+}
+
+.card-blog {
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-pink) 100%);
+    border-color: var(--primary-pink);
+}
+
+.card-blog .card-icon {
+    color: var(--primary-pink);
+}
+
+.card-blog:hover {
+    box-shadow: 0 12px 30px rgba(255, 107, 157, 0.25);
+}
+
+
+/* ==================== 资源区域 ==================== */
+
+/* 资源网格 */
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 18px;
+}
+
+/* 资源卡片 - 轻盈设计 */
+.resource-card {
+    background: var(--bg-white);
+    padding: 22px 18px;
+    border-radius: var(--radius-md);
+    border: 2px solid var(--border-light);
+    transition: var(--transition);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* 资源卡片悬停效果 */
+.resource-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: var(--shadow-lg);
+}
+
+.practice-platforms .resource-card:hover {
+    border-color: var(--primary-purple);
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-purple) 100%);
+}
+
+.knowledge-learning .resource-card:hover {
+    border-color: var(--primary-green);
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-green) 100%);
+}
+
+.programming-tools .resource-card:hover {
+    border-color: var(--primary-orange);
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-orange) 100%);
+}
+
+/* 资源图标 - 动态效果 */
+.resource-icon {
+    font-size: 2.8rem;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
+    transition: var(--transition);
+}
+
+.resource-card:hover .resource-icon {
+    transform: scale(1.15);
+}
+
+/* 资源标题 */
+.resource-card h4 {
+    font-size: 1.05rem;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+/* 资源描述 */
+.resource-card p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    line-height: 1.5;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* ==================== 底部样式 - 彩色风格 ==================== */
+
+.footer {
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-blue) 100%);
+    padding: 35px 20px;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    text-align: center;
+    position: relative;
+    border: 3px solid transparent;
+    background-image: 
+        linear-gradient(white, #E8F4FD),
+        linear-gradient(90deg, var(--primary-blue), var(--primary-purple), var(--primary-orange));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.footer::before {
+    content: '⭐ 💻 🎨 🚀';
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+/* 版权信息 */
+.copyright {
+    font-size: 0.95rem;
+    color: var(--text-gray);
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+/* 底部标语 */
+.slogan {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+
+/* ==================== 响应式设计 ==================== */
+
+/* 平板设备 */
+@media (max-width: 768px) {
+    /* 头部调整 */
+    .header .container {
+        padding: 35px 20px;
+    }
+    
+    .logo-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .site-title {
+        font-size: 1.8rem;
+    }
+    
+    .tagline {
+        font-size: 1rem;
+    }
+    
+    /* 模块化区块调整 */
+    .my-platforms,
+    .practice-platforms,
+    .knowledge-learning,
+    .programming-tools {
+        padding: 30px 20px;
+    }
+    
+    /* 平台卡片调整 */
+    .platform-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    /* 区块标题调整 */
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    /* 资源网格调整 */
+    .resource-grid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 15px;
+    }
+}
+
+/* 手机设备 */
+@media (max-width: 480px) {
+    /* 容器内边距 */
+    .container {
+        padding: 0 15px;
+    }
+    
+    body {
+        padding: 15px 0;
+    }
+    
+    /* 头部调整 */
+    .header {
+        margin-bottom: 25px;
+    }
+    
+    .header .container {
+        padding: 30px 20px;
+    }
+    
+    .site-title {
+        font-size: 1.5rem;
+    }
+    
+    .tagline {
+        font-size: 0.95rem;
+    }
+    
+    /* 模块化区块调整 */
+    .my-platforms,
+    .practice-platforms,
+    .knowledge-learning,
+    .programming-tools {
+        padding: 25px 20px;
+        margin-bottom: 20px;
+    }
+    
+    /* 平台卡片调整 */
+    .platform-card {
+        padding: 28px 22px;
+    }
+    
+    .card-icon {
+        font-size: 3rem;
+    }
+    
+    .card-title {
+        font-size: 1.4rem;
+    }
+    
+    /* 区块标题调整 */
+    .section-title {
+        font-size: 1.4rem;
+    }
+    
+    /* 资源网格调整 */
+    .resource-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    /* 底部调整 */
+    .footer {
+        padding: 25px 15px;
+    }
+}
+
+
+/* ==================== 打印样式 ==================== */
+
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+    
+    .platform-card,
+    .resource-card {
+        box-shadow: none;
+        border: 1px solid var(--border-color);
+    }
+    
+    .platform-card:hover,
+    .resource-card:hover {
+        transform: none;
+    }
+}
+
