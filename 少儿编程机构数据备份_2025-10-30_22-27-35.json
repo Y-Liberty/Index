@@ -1,0 +1,2678 @@
+{
+  "students": [
+    {
+      "id": 1024003,
+      "name": "杨帆",
+      "gender": "男",
+      "age": 8,
+      "school": "银河小学",
+      "parentName": "赵丽君",
+      "parentPhone": "15848128967",
+      "course": "Scratch进阶班",
+      "remainingHours": 33,
+      "consumeRecords": [
+        {
+          "id": "m9c8gk1ozbi1hca908",
+          "date": "2025-03-22",
+          "hours": -1.5,
+          "note": "保卫小鸡"
+        },
+        {
+          "id": "m9c8gxfg94ai6eyx9f",
+          "date": "2025-03-29",
+          "hours": -1.5,
+          "note": "速算爬树"
+        },
+        {
+          "id": "m9nomyhviux30tlx3",
+          "date": "2025-04-19",
+          "hours": -1.5,
+          "note": "捕捉蝴蝶"
+        },
+        {
+          "id": "m9xqqsc7glue5skahmt",
+          "date": "2025-04-26",
+          "hours": -1.5,
+          "note": "发射火箭"
+        },
+        {
+          "id": "mahrxqa1k3sekygyk09",
+          "date": "2025-05-10",
+          "hours": -1.5,
+          "note": "打砖块"
+        },
+        {
+          "id": "maxhttjdehjz7vqt9kj",
+          "date": "2025-05-18",
+          "hours": -1,
+          "note": "海豹游戏"
+        },
+        {
+          "id": "mbfuzti3xmg2u3gthps",
+          "date": "2025-06-02",
+          "hours": -1.5,
+          "note": "接苹果"
+        },
+        {
+          "id": "mblr80k0l98er19xgc",
+          "date": "2025-06-07",
+          "hours": -1.5,
+          "note": "投篮游戏"
+        },
+        {
+          "id": "mblr8e0xyc2k6lpmq1e",
+          "date": "2025-06-07",
+          "hours": 52,
+          "note": "续费"
+        },
+        {
+          "id": "mbxelnsgzc1yxmx9uy9",
+          "date": "2025-06-15",
+          "hours": -1.5,
+          "note": "猫鼠游戏"
+        },
+        {
+          "id": "mcyx8at88vsgl3gk9aa",
+          "date": "2025-06-22",
+          "hours": -1.5,
+          "note": "飞机大战"
+        },
+        {
+          "id": "mczpv7ekm5ua1sc2z49",
+          "date": "2025-07-12",
+          "hours": -1.5,
+          "note": "打靶游戏"
+        },
+        {
+          "id": "md1cybe18r8rxpenw3",
+          "date": "2025-07-13",
+          "hours": -1.5,
+          "note": "水果忍者"
+        },
+        {
+          "id": "md5zgtub56wezu2f56u",
+          "date": "2025-07-14",
+          "hours": -1.5,
+          "note": "打字游戏"
+        },
+        {
+          "id": "md5zh8f161kui7tr1mt",
+          "date": "2025-07-15",
+          "hours": -1.5,
+          "note": "跳水比赛"
+        },
+        {
+          "id": "md5zhjzxzeuwkqp86k",
+          "date": "2025-07-15",
+          "hours": -1.5,
+          "note": "植物大战僵尸1"
+        },
+        {
+          "id": "md8k9lexobdguzfsyei",
+          "date": "2025-07-17",
+          "hours": -1.5,
+          "note": "植物大战僵尸2"
+        },
+        {
+          "id": "md8k9ylsgg07q140b8t",
+          "date": "2025-07-18",
+          "hours": -1.5,
+          "note": "植物大战僵尸3"
+        },
+        {
+          "id": "mdyekdhousntx45hyao",
+          "date": "2025-08-05",
+          "hours": -2,
+          "note": "蓝桥杯集训1"
+        },
+        {
+          "id": "me2p2eio0iqpy6hu75g",
+          "date": "2025-08-08",
+          "hours": -6,
+          "note": "8.6-8.8蓝桥杯集训"
+        },
+        {
+          "id": "mf7z626hwmaeqysxwk",
+          "date": "2025-09-06",
+          "hours": -1.5,
+          "note": "画图"
+        },
+        {
+          "id": "mfi043i2dkdu1fau6pb",
+          "date": "2025-09-13",
+          "hours": -1.5,
+          "note": "贪吃蛇"
+        },
+        {
+          "id": "mfjl59gdt30i98ztya",
+          "date": "2025-09-14",
+          "hours": -0.5,
+          "note": "更新信息取整"
+        },
+        {
+          "id": "mgw5b5xy5j81by4jl46",
+          "date": "2025-10-18",
+          "hours": -1.5,
+          "note": "flappybrid"
+        },
+        {
+          "id": "mh60fwmyyq27alu3u6",
+          "date": "2025-10-25",
+          "hours": -1.5,
+          "note": "Scratch - 钓鱼小游戏"
+        }
+      ],
+      "points": 233,
+      "pointsHistory": [
+        {
+          "id": "m9c8gk1o8pfqed5i9sj",
+          "consumeRecordId": "m9c8gk1ozbi1hca908",
+          "date": "2025-03-22",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "m9c8gxfgd21pian82ar",
+          "consumeRecordId": "m9c8gxfg94ai6eyx9f",
+          "date": "2025-03-29",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "m9nomyhvtuos69p5f7s",
+          "consumeRecordId": "m9nomyhviux30tlx3",
+          "date": "2025-04-19",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "m9xqqsc7ilm476rfota",
+          "consumeRecordId": "m9xqqsc7glue5skahmt",
+          "date": "2025-04-26",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mahrxqa1sc94otmmt7p",
+          "consumeRecordId": "mahrxqa1k3sekygyk09",
+          "date": "2025-05-10",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "maxhttjd608oc1fylw7",
+          "consumeRecordId": "maxhttjdehjz7vqt9kj",
+          "date": "2025-05-18",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mbfuzti3oyd6t6sukm",
+          "consumeRecordId": "mbfuzti3xmg2u3gthps",
+          "date": "2025-06-02",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mblr80k0jbr9k9egzz",
+          "consumeRecordId": "mblr80k0l98er19xgc",
+          "date": "2025-06-07",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mbxelnsg20rn4iohecd",
+          "consumeRecordId": "mbxelnsgzc1yxmx9uy9",
+          "date": "2025-06-15",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mcxb5ggxdg7vh27r6vs",
+          "consumeRecordId": "mcxb5ggxnfprzoppxm",
+          "date": "2025-06-22",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mcyx8at82r2hjczmnwd",
+          "consumeRecordId": "mcyx8at88vsgl3gk9aa",
+          "date": "2025-06-22",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mcyx8wxogr56wkci5kr",
+          "date": "2025-07-11",
+          "change": -7,
+          "note": "6.22重复记录"
+        },
+        {
+          "id": "mczpv7ekhzukmj472n6",
+          "consumeRecordId": "mczpv7ekm5ua1sc2z49",
+          "date": "2025-07-12",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md1cybe1ib5d9f10jvh",
+          "consumeRecordId": "md1cybe18r8rxpenw3",
+          "date": "2025-07-13",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md1d2uw0nl7dsfmjdfg",
+          "date": "2025-07-13",
+          "change": -20,
+          "note": "兑换卡通拼装玩具"
+        },
+        {
+          "id": "md5zgtubd0whcwcerr",
+          "consumeRecordId": "md5zgtub56wezu2f56u",
+          "date": "2025-07-14",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md5zh8f1pehwwdgjdls",
+          "consumeRecordId": "md5zh8f161kui7tr1mt",
+          "date": "2025-07-15",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md5zhjzxd1l7fdh4kow",
+          "consumeRecordId": "md5zhjzxzeuwkqp86k",
+          "date": "2025-07-15",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md8k9lex0ffoki88ks0b",
+          "consumeRecordId": "md8k9lexobdguzfsyei",
+          "date": "2025-07-17",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md8k9ylsed46wbg0sbq",
+          "consumeRecordId": "md8k9ylsgg07q140b8t",
+          "date": "2025-07-18",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mdyekdhozfbwqqj9tl",
+          "consumeRecordId": "mdyekdhousntx45hyao",
+          "date": "2025-08-05",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mdyektrpplo7x6e45o",
+          "date": "2025-08-05",
+          "change": 5,
+          "note": "回答问题奖励"
+        },
+        {
+          "id": "me2p2eioiu3qp8t17i",
+          "consumeRecordId": "me2p2eio0iqpy6hu75g",
+          "date": "2025-08-08",
+          "change": 30,
+          "note": "消课6课时奖励积分"
+        },
+        {
+          "id": "mf7z626h0l5jwebna0sh",
+          "consumeRecordId": "mf7z626hwmaeqysxwk",
+          "date": "2025-09-06",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mf7z6dhu5zyw8ungmct",
+          "date": "2025-09-06",
+          "change": 50,
+          "note": "省赛二等奖"
+        },
+        {
+          "id": "mfi043i2pg9ls37soih",
+          "consumeRecordId": "mfi043i2dkdu1fau6pb",
+          "date": "2025-09-13",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mfjl59gd4jeof5jtion",
+          "consumeRecordId": "mfjl59gdt30i98ztya",
+          "date": "2025-09-14",
+          "change": 2.5,
+          "note": "消课0.5课时奖励积分"
+        },
+        {
+          "id": "mgw5b5xy52inql3dhd6",
+          "consumeRecordId": "mgw5b5xy5j81by4jl46",
+          "date": "2025-10-18",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mh60fwmy948o2lpisp9",
+          "consumeRecordId": "mh60fwmyyq27alu3u6",
+          "date": "2025-10-25",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        }
+      ],
+      "scheduleDays": [
+        6
+      ]
+    },
+    {
+      "id": 1024001,
+      "name": "田沛哲",
+      "gender": "男",
+      "age": 12,
+      "school": "内蒙古农业大学附属中学",
+      "parentName": "张玉洁",
+      "parentPhone": "15226286688",
+      "course": "C++算法基础班",
+      "remainingHours": 40.5,
+      "consumeRecords": [
+        {
+          "id": "m9c8iyb726bqwnhmj6ti",
+          "date": "2025-03-16",
+          "hours": -2,
+          "note": "二分与倍增"
+        },
+        {
+          "id": "m9c8jhqk4kihmx3qqzw",
+          "date": "2025-03-22",
+          "hours": -2,
+          "note": "模拟赛"
+        },
+        {
+          "id": "m9c8k0o42p89e6a5weu",
+          "date": "2025-03-29",
+          "hours": -2,
+          "note": "STL"
+        },
+        {
+          "id": "m9c8ka4kbz1izgjqmqa",
+          "date": "2025-03-30",
+          "hours": -2,
+          "note": "STL"
+        },
+        {
+          "id": "m9c8mfjvtcidhjz6xbp",
+          "date": "2024-10-14",
+          "hours": 46,
+          "note": "第一次报课"
+        },
+        {
+          "id": "m9c8ns1g3j9t52tutu1",
+          "date": "2024-12-31",
+          "hours": 39,
+          "note": "假期班续费"
+        },
+        {
+          "id": "m9c8od8s4gdwlwo17fh",
+          "date": "2025-03-01",
+          "hours": -39,
+          "note": "假期班完结"
+        },
+        {
+          "id": "m9c8p36jyb4ed4qnmq8",
+          "date": "2025-04-11",
+          "hours": -46,
+          "note": "首报完结"
+        },
+        {
+          "id": "m9e5j0yql5smy6v4ao",
+          "date": "2025-04-12",
+          "hours": -2,
+          "note": "图论"
+        },
+        {
+          "id": "m9fe6p403p27io6vcgf",
+          "date": "2025-04-13",
+          "hours": -2,
+          "note": "图论"
+        },
+        {
+          "id": "m9w5w9voijul21uf71b",
+          "date": "2025-04-20",
+          "hours": -4,
+          "note": "图论"
+        },
+        {
+          "id": "maj6olxrqvyv53fcu8k",
+          "date": "2025-05-11",
+          "hours": -4,
+          "note": "素养大赛培训"
+        },
+        {
+          "id": "maxhtc1u5ny1u2ri1sw",
+          "date": "2025-05-18",
+          "hours": -4,
+          "note": "知识点复习"
+        },
+        {
+          "id": "mbfuz6m9y7rjsf3hirs",
+          "date": "2025-06-02",
+          "hours": -4,
+          "note": "消课"
+        },
+        {
+          "id": "mbxemxfqqh4bnrf8vw",
+          "date": "2025-06-08",
+          "hours": -4,
+          "note": "素养大赛培训2"
+        },
+        {
+          "id": "mbxen9bfo57bufqqbwf",
+          "date": "2025-06-15",
+          "hours": -4,
+          "note": "素养大赛培训3"
+        },
+        {
+          "id": "mc7gn20lqb93ipg9xhg",
+          "date": "2025-06-22",
+          "hours": -3,
+          "note": "消课"
+        },
+        {
+          "id": "mcxb2c4gt55kunc8vcn",
+          "date": "2025-06-29",
+          "hours": -4,
+          "note": "素养大赛培训"
+        },
+        {
+          "id": "md1cywzdn7mwajetvzt",
+          "date": "2025-07-12",
+          "hours": -4,
+          "note": "C++暑期集训1-Linux命令行与STL"
+        },
+        {
+          "id": "md1e4aqln5dv1iiuuzg",
+          "date": "2025-07-13",
+          "hours": -4,
+          "note": "C++暑期集训2-STL与数据结构精讲"
+        },
+        {
+          "id": "md5zmju4eghhjldje4t",
+          "date": "2025-07-14",
+          "hours": -4,
+          "note": "C++暑期集训3-数据结构与二叉树问题精讲"
+        },
+        {
+          "id": "md5zmwczuhedwp8ebb",
+          "date": "2025-07-15",
+          "hours": -4,
+          "note": "C++暑期集训4-贪心问题精讲"
+        },
+        {
+          "id": "md5zn3lor1dw766x8ts",
+          "date": "2025-07-16",
+          "hours": -4,
+          "note": "C++暑期集训5-高精度算法与质数问题精讲"
+        },
+        {
+          "id": "md60142mm4y40rj9sks",
+          "date": "2025-07-10",
+          "hours": 36,
+          "note": "增加课时"
+        },
+        {
+          "id": "md8k8r0pwjb89ylm2p",
+          "date": "2025-07-18",
+          "hours": -2,
+          "note": "C++暑期集训7-搜索专题讲解与集训总复习"
+        },
+        {
+          "id": "md8k8z9cjfnd2793gn",
+          "date": "2025-07-17",
+          "hours": -4,
+          "note": "C++暑期集训6-数论专题讲解"
+        },
+        {
+          "id": "me2p5ink5uom8k3xveh",
+          "date": "2025-08-07",
+          "hours": -4,
+          "note": "蓝桥杯集训1"
+        },
+        {
+          "id": "me2p5q1kk149m7ns7l",
+          "date": "2025-08-08",
+          "hours": -4,
+          "note": "蓝桥杯集训2"
+        },
+        {
+          "id": "me43rsxkqz2q36mrtx",
+          "date": "2025-08-09",
+          "hours": -4,
+          "note": "蓝桥杯模拟4"
+        },
+        {
+          "id": "meavi86mn6hroygic9q",
+          "date": "2025-08-10",
+          "hours": -4,
+          "note": "蓝桥杯"
+        },
+        {
+          "id": "meaviu9by2564v88fe",
+          "date": "2025-08-14",
+          "hours": -4,
+          "note": "素养大赛决赛备赛1"
+        },
+        {
+          "id": "meavjcnje7p99sctwo6",
+          "date": "2025-08-13",
+          "hours": -4,
+          "note": "素养大赛决赛备赛2"
+        },
+        {
+          "id": "meavjozy598pn27z0y",
+          "date": "2025-08-12",
+          "hours": -4,
+          "note": "素养大赛决赛备赛3"
+        },
+        {
+          "id": "mf7zug7zajfhwo8qjji",
+          "date": "2025-08-15",
+          "hours": -2,
+          "note": "素养大赛决赛备赛4"
+        },
+        {
+          "id": "mf927j3nrvod4zcb45",
+          "date": "2025-09-07",
+          "hours": 64,
+          "note": "2025.9.7 续费"
+        },
+        {
+          "id": "mf9h22sihfrzlg8lz5g",
+          "date": "2025-09-07",
+          "hours": -4,
+          "note": "CSP初赛培训1"
+        },
+        {
+          "id": "mfjl4rfpywgj6uf40a",
+          "date": "2025-09-14",
+          "hours": -4,
+          "note": "CSP初赛培训1"
+        },
+        {
+          "id": "mfrzitphk7oblohf8j",
+          "date": "2025-09-19",
+          "hours": -1.5,
+          "note": "CSP-J 初赛集训"
+        },
+        {
+          "id": "mfvvpme9qeaqa8k1vi",
+          "date": "2025-09-21",
+          "hours": -2,
+          "note": "CSP复赛集训1"
+        },
+        {
+          "id": "mg1tei8y2e0gkkzpepu",
+          "date": "2025-09-27",
+          "hours": -2,
+          "note": "CSP复赛培训2"
+        },
+        {
+          "id": "mgnfb7mwv3rmgn34x3b",
+          "date": "2025-10-12",
+          "hours": -2,
+          "note": "CSP复赛集训"
+        },
+        {
+          "id": "mgw5bk9itoiouiegdpf",
+          "date": "2025-10-18",
+          "hours": -2,
+          "note": "CSP复习课"
+        },
+        {
+          "id": "mgxggpwn1psr2x9dyjl",
+          "date": "2025-10-19",
+          "hours": -2,
+          "note": "CSP模拟赛"
+        },
+        {
+          "id": "mh7df20efusn03j9xj9",
+          "date": "2025-10-26",
+          "hours": -2,
+          "note": "CSP第二题练习"
+        },
+        {
+          "id": "mh7dfbem0pcntl4l70p",
+          "date": "2025-10-26",
+          "hours": -2,
+          "note": "CSP模拟赛"
+        }
+      ],
+      "points": 1077.5,
+      "pointsHistory": [
+        {
+          "id": "m9c8iyb7vmnl57jvvnl",
+          "consumeRecordId": "m9c8iyb726bqwnhmj6ti",
+          "date": "2025-03-16",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "m9c8jhqkorjy3isvqsj",
+          "consumeRecordId": "m9c8jhqk4kihmx3qqzw",
+          "date": "2025-03-22",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "m9c8jpb0xs336jsat8g",
+          "consumeRecordId": "m9c8jpb0q2u5yhr3jk",
+          "date": "2025-04-23",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "m9c8k0o4te6ktc00par",
+          "consumeRecordId": "m9c8k0o42p89e6a5weu",
+          "date": "2025-03-29",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "m9c8ka4kaxjeek7ux46",
+          "consumeRecordId": "m9c8ka4kbz1izgjqmqa",
+          "date": "2025-03-30",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "m9c8od8s6igv5svncu",
+          "consumeRecordId": "m9c8od8s4gdwlwo17fh",
+          "date": "2025-03-01",
+          "change": 195,
+          "note": "消课39课时奖励积分"
+        },
+        {
+          "id": "m9c8p36jz4bo4k94apb",
+          "consumeRecordId": "m9c8p36jyb4ed4qnmq8",
+          "date": "2025-04-11",
+          "change": 230,
+          "note": "消课46课时奖励积分"
+        },
+        {
+          "id": "m9e5j0yq1i6g1v1f7pe",
+          "consumeRecordId": "m9e5j0yql5smy6v4ao",
+          "date": "2025-04-12",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "m9fe6p40tsquac6igrp",
+          "consumeRecordId": "m9fe6p403p27io6vcgf",
+          "date": "2025-04-13",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "m9w5w9vo7fdnrhhzt4a",
+          "consumeRecordId": "m9w5w9voijul21uf71b",
+          "date": "2025-04-20",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "maj6olxr5msb0efcti4",
+          "consumeRecordId": "maj6olxrqvyv53fcu8k",
+          "date": "2025-05-11",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "maxhtc1ug75e5xce38",
+          "consumeRecordId": "maxhtc1u5ny1u2ri1sw",
+          "date": "2025-05-18",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "mbfuz6m9esdplj042ze",
+          "consumeRecordId": "mbfuz6m9y7rjsf3hirs",
+          "date": "2025-06-02",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "mbxemxfqkb1l0j2a01h",
+          "consumeRecordId": "mbxemxfqqh4bnrf8vw",
+          "date": "2025-06-08",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "mbxen9bf5lfh22qorm",
+          "consumeRecordId": "mbxen9bfo57bufqqbwf",
+          "date": "2025-06-15",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "mc7gn20lh79d1vneul5",
+          "consumeRecordId": "mc7gn20lqb93ipg9xhg",
+          "date": "2025-06-22",
+          "change": 15,
+          "note": "消课3课时奖励积分"
+        },
+        {
+          "id": "mcxb2c4gpilwakyu4c",
+          "consumeRecordId": "mcxb2c4gt55kunc8vcn",
+          "date": "2025-06-29",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md1cywzdphd3nfqnju",
+          "consumeRecordId": "md1cywzdn7mwajetvzt",
+          "date": "2025-07-12",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md1e4aqlbt1fr7wb4gt",
+          "consumeRecordId": "md1e4aqln5dv1iiuuzg",
+          "date": "2025-07-13",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md5zim9nru5etrga4ae",
+          "consumeRecordId": "md5zim9ndg41u2kg7i7",
+          "date": "2025-07-15",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md5zkav0mjq1r46e3om",
+          "consumeRecordId": "md5zkav0b3gzoopn5q",
+          "date": "2025-07-16",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md5zko57wqpgcf7n6f",
+          "consumeRecordId": "md5zko57p4wh6y6yk5",
+          "date": "2025-07-14",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md5zkwng5ghs8y6stjp",
+          "consumeRecordId": "md5zkwngxeabyka5bef",
+          "date": "2025-07-15",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md5zmju4pdpnsgz23rk",
+          "consumeRecordId": "md5zmju4eghhjldje4t",
+          "date": "2025-07-14",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md5zmwczrr6cggdcx4i",
+          "consumeRecordId": "md5zmwczuhedwp8ebb",
+          "date": "2025-07-15",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md5zn3lolebsqdlqp7",
+          "consumeRecordId": "md5zn3lor1dw766x8ts",
+          "date": "2025-07-16",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md5znoi42cbo466pd8f",
+          "date": "2025-07-16",
+          "change": -80,
+          "note": "重复消课"
+        },
+        {
+          "id": "md8k80ypr31i4fusmmk",
+          "consumeRecordId": "md8k80ypj8qq1d67fmr",
+          "date": "2025-07-18",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "md8k8r0pqv27i0h08j",
+          "consumeRecordId": "md8k8r0pwjb89ylm2p",
+          "date": "2025-07-18",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "md8k8z9cnim4fn92f8o",
+          "consumeRecordId": "md8k8z9cjfnd2793gn",
+          "date": "2025-07-17",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "me2p5ink3d6vh8pb7t7",
+          "consumeRecordId": "me2p5ink5uom8k3xveh",
+          "date": "2025-08-07",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "me2p5q1kpswvnlr7v1p",
+          "consumeRecordId": "me2p5q1kk149m7ns7l",
+          "date": "2025-08-08",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "me43rsxk2lcs128rjzc",
+          "consumeRecordId": "me43rsxkqz2q36mrtx",
+          "date": "2025-08-09",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "meavi86mffxwqi56rwb",
+          "consumeRecordId": "meavi86mn6hroygic9q",
+          "date": "2025-08-10",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "meaviu9b2xnvk5f2fc9",
+          "consumeRecordId": "meaviu9by2564v88fe",
+          "date": "2025-08-14",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "meavjcnjclu10hv7nv",
+          "consumeRecordId": "meavjcnje7p99sctwo6",
+          "date": "2025-08-13",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "meavjozylk74kioy9uc",
+          "consumeRecordId": "meavjozy598pn27z0y",
+          "date": "2025-08-12",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "mf7zu8l4eau439zyvyh",
+          "consumeRecordId": "mf7zu8l49tloju1opj",
+          "date": "2025-09-06",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mf7zug7z9832i6kczsn",
+          "consumeRecordId": "mf7zug7zajfhwo8qjji",
+          "date": "2025-08-15",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mf9h22sigrusg235vbb",
+          "consumeRecordId": "mf9h22sihfrzlg8lz5g",
+          "date": "2025-09-07",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "mfjl4rfp8s95f5tcn9x",
+          "consumeRecordId": "mfjl4rfpywgj6uf40a",
+          "date": "2025-09-14",
+          "change": 20,
+          "note": "消课4课时奖励积分"
+        },
+        {
+          "id": "mfrzitphra86auuvxhp",
+          "consumeRecordId": "mfrzitphk7oblohf8j",
+          "date": "2025-09-19",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mfvvpme9w2ariqmww8",
+          "consumeRecordId": "mfvvpme9qeaqa8k1vi",
+          "date": "2025-09-21",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mg1tei8yhd979qreqbd",
+          "consumeRecordId": "mg1tei8y2e0gkkzpepu",
+          "date": "2025-09-27",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgnfb7mw1aiwztqcmok",
+          "consumeRecordId": "mgnfb7mwv3rmgn34x3b",
+          "date": "2025-10-12",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgw5bk9itzydmleqnpc",
+          "consumeRecordId": "mgw5bk9itoiouiegdpf",
+          "date": "2025-10-18",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgxggpwninlnf86s6nf",
+          "consumeRecordId": "mgxggpwn1psr2x9dyjl",
+          "date": "2025-10-19",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mh7df20eni6553j73xd",
+          "consumeRecordId": "mh7df20efusn03j9xj9",
+          "date": "2025-10-26",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mh7dfbemguy1yggt7la",
+          "consumeRecordId": "mh7dfbem0pcntl4l70p",
+          "date": "2025-10-26",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        }
+      ],
+      "scheduleDays": [
+        0,
+        6
+      ]
+    },
+    {
+      "id": 1024005,
+      "name": "张稼鑫",
+      "gender": "男",
+      "age": 10,
+      "school": "银河南街小学",
+      "parentName": "马瑞英",
+      "parentPhone": "13848102264",
+      "course": "Python基础班",
+      "remainingHours": 36,
+      "consumeRecords": [
+        {
+          "id": "ma0vpb2v2gvoyakafyx",
+          "date": "2025-04-26",
+          "hours": -2,
+          "note": "ICode赛事培训"
+        },
+        {
+          "id": "ma8zqg97s4std0vfnc",
+          "date": "2025-05-03",
+          "hours": -3,
+          "note": "ICODE赛事培训"
+        },
+        {
+          "id": "ma8zqq7vuqxe5qyr6wf",
+          "date": "2025-05-04",
+          "hours": -3,
+          "note": "ICODE赛事培训"
+        },
+        {
+          "id": "maj6oaony482ql7cd5k",
+          "date": "2025-05-11",
+          "hours": -3,
+          "note": "ICODE赛事培训"
+        },
+        {
+          "id": "maxhu4yh5pd8gy2g41r",
+          "date": "2025-05-17",
+          "hours": -3,
+          "note": "Icode培训"
+        },
+        {
+          "id": "mblxebuguaswbqdqjq",
+          "date": "2025-06-07",
+          "hours": 64,
+          "note": "续费"
+        },
+        {
+          "id": "mbxekxbagtgh6mgb56f",
+          "date": "2025-06-15",
+          "hours": 2,
+          "note": "青科赛省级二等奖赠送课时"
+        },
+        {
+          "id": "mbxelaumeppbr2d1es8",
+          "date": "2025-06-15",
+          "hours": -1.5,
+          "note": "猫鼠游戏"
+        },
+        {
+          "id": "mcxb6968hxaipkr7mfn",
+          "date": "2025-07-05",
+          "hours": -1.5,
+          "note": "投篮游戏"
+        },
+        {
+          "id": "mcyx9a58aeh8f6cfsqn",
+          "date": "2025-06-22",
+          "hours": -1.5,
+          "note": "飞机大战"
+        },
+        {
+          "id": "mczpux4lcmrwr0boih",
+          "date": "2025-07-12",
+          "hours": -1.5,
+          "note": "打靶游戏"
+        },
+        {
+          "id": "md1cy355zphhw62qzab",
+          "date": "2025-07-13",
+          "hours": -1.5,
+          "note": "水果忍者"
+        },
+        {
+          "id": "md5zfs03y0b7921fuyb",
+          "date": "2025-07-14",
+          "hours": -1.5,
+          "note": "打字游戏"
+        },
+        {
+          "id": "md5zg9ibm0zqap8uga",
+          "date": "2025-07-15",
+          "hours": -1.5,
+          "note": "跳水比赛"
+        },
+        {
+          "id": "md5zgig4dnwjbbeeabd",
+          "date": "2025-07-16",
+          "hours": -1.5,
+          "note": "植物大战僵尸1"
+        },
+        {
+          "id": "md8ka8xtsc7puilqnac",
+          "date": "2025-07-17",
+          "hours": -1.5,
+          "note": "植物大战僵尸2"
+        },
+        {
+          "id": "md8kag7sabh85ospmxg",
+          "date": "2025-07-18",
+          "hours": -1.5,
+          "note": "植物大战僵尸3"
+        },
+        {
+          "id": "mdyekl3pvqka9nb2kgp",
+          "date": "2025-08-05",
+          "hours": -2,
+          "note": "蓝桥杯集训1"
+        },
+        {
+          "id": "me2p2qxltdwamj8mudn",
+          "date": "2025-08-08",
+          "hours": -6,
+          "note": "8.6-8.8 蓝桥杯集训"
+        },
+        {
+          "id": "mf7z6sx4nkir0ibnn8q",
+          "date": "2025-09-06",
+          "hours": -1.5,
+          "note": "画图"
+        },
+        {
+          "id": "mfi02re2wsat331tat",
+          "date": "2025-09-07",
+          "hours": 2,
+          "note": "转发朋友圈赠送2课时"
+        },
+        {
+          "id": "mfi03v6yavu7un12ro",
+          "date": "2025-09-13",
+          "hours": -1.5,
+          "note": "贪吃蛇"
+        },
+        {
+          "id": "mfrzj5nprxgf7ngyni",
+          "date": "2025-09-20",
+          "hours": -1.5,
+          "note": "国庆"
+        },
+        {
+          "id": "mg1tfilt4za0zm9ulcd",
+          "date": "2025-09-27",
+          "hours": -1.5,
+          "note": "Scratch-flappybird"
+        },
+        {
+          "id": "mgx7r36rmeubl3kz2w",
+          "date": "2025-10-19",
+          "hours": -2,
+          "note": "Python 语法基础 - 输入输出，OJ讲解"
+        },
+        {
+          "id": "mgx9g5ta7z9i2v76to",
+          "date": "2025-10-12",
+          "hours": -2,
+          "note": "Python语法基础1 - 顺序结构，变量，运算"
+        },
+        {
+          "id": "mh7deb9apz3saqxjzn",
+          "date": "2025-10-26",
+          "hours": -2,
+          "note": "Python语法基础3 - 判断语句"
+        }
+      ],
+      "points": 290.5,
+      "pointsHistory": [
+        {
+          "id": "ma0vpb2vi5pbg17dig",
+          "consumeRecordId": "ma0vpb2v2gvoyakafyx",
+          "date": "2025-04-26",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "ma8zqg97qdjbthz1sr",
+          "consumeRecordId": "ma8zqg97s4std0vfnc",
+          "date": "2025-05-03",
+          "change": 15,
+          "note": "消课3课时奖励积分"
+        },
+        {
+          "id": "ma8zqq7vfjlreh21a8v",
+          "consumeRecordId": "ma8zqq7vuqxe5qyr6wf",
+          "date": "2025-05-04",
+          "change": 15,
+          "note": "消课3课时奖励积分"
+        },
+        {
+          "id": "maj6oaondq45wzivfqq",
+          "consumeRecordId": "maj6oaony482ql7cd5k",
+          "date": "2025-05-11",
+          "change": 15,
+          "note": "消课3课时奖励积分"
+        },
+        {
+          "id": "maj6r5entlhk38fl6c",
+          "date": "2025-05-11",
+          "change": -50,
+          "note": "兑换礼物-科学小实验"
+        },
+        {
+          "id": "maxhu4yhxokunan9zb",
+          "consumeRecordId": "maxhu4yh5pd8gy2g41r",
+          "date": "2025-05-17",
+          "change": 15,
+          "note": "消课3课时奖励积分"
+        },
+        {
+          "id": "mbxelaum8r0n3grwel",
+          "consumeRecordId": "mbxelaumeppbr2d1es8",
+          "date": "2025-06-15",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mcxb5v880i47z4misfin",
+          "consumeRecordId": "mcxb5v8863c0dc7fnkd",
+          "date": "2025-06-22",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mcxb6968ik70bgq7ml",
+          "consumeRecordId": "mcxb6968hxaipkr7mfn",
+          "date": "2025-07-05",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mcyx9a58j8xiti5g9b",
+          "consumeRecordId": "mcyx9a58aeh8f6cfsqn",
+          "date": "2025-06-22",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mcyx9w8tn8d67ulwts",
+          "date": "2025-07-11",
+          "change": -7,
+          "note": "6.22重复消课"
+        },
+        {
+          "id": "mczpux4lujzqi9de9xq",
+          "consumeRecordId": "mczpux4lcmrwr0boih",
+          "date": "2025-07-12",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mczpvldgwbr6hzi0t2g",
+          "date": "2025-07-12",
+          "change": 50,
+          "note": "省赛二等奖"
+        },
+        {
+          "id": "md1cy355fkr1z8y54wp",
+          "consumeRecordId": "md1cy355zphhw62qzab",
+          "date": "2025-07-13",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md5zfs03n61q2yspbr9",
+          "consumeRecordId": "md5zfs03y0b7921fuyb",
+          "date": "2025-07-14",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md5zg9ibkhxszyp57x",
+          "consumeRecordId": "md5zg9ibm0zqap8uga",
+          "date": "2025-07-15",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md5zgig4pzo7r7ey0xq",
+          "consumeRecordId": "md5zgig4dnwjbbeeabd",
+          "date": "2025-07-16",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md8ka8xtac7o95mpu9l",
+          "consumeRecordId": "md8ka8xtsc7puilqnac",
+          "date": "2025-07-17",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "md8kag7sy4w9i2dhje",
+          "consumeRecordId": "md8kag7sabh85ospmxg",
+          "date": "2025-07-18",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mdyekl3p84ecfnqgmj8",
+          "consumeRecordId": "mdyekl3pvqka9nb2kgp",
+          "date": "2025-08-05",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mdyel54dtizsokp7159",
+          "date": "2025-08-05",
+          "change": 5,
+          "note": "回答问题奖励"
+        },
+        {
+          "id": "me2p2qxlljh5w94bg1l",
+          "consumeRecordId": "me2p2qxltdwamj8mudn",
+          "date": "2025-08-08",
+          "change": 30,
+          "note": "消课6课时奖励积分"
+        },
+        {
+          "id": "mf7z6sx4q9fm7ln8a5j",
+          "consumeRecordId": "mf7z6sx4nkir0ibnn8q",
+          "date": "2025-09-06",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mf7z75qxozi7ro2qi4p",
+          "date": "2025-09-06",
+          "change": 80,
+          "note": "省赛一等奖"
+        },
+        {
+          "id": "mf7zo2d3kqjxdl0d3hs",
+          "date": "2025-09-06",
+          "change": -50,
+          "note": "礼物兑换-科学小课堂"
+        },
+        {
+          "id": "mfi03v6ywqaale1z8gq",
+          "consumeRecordId": "mfi03v6yavu7un12ro",
+          "date": "2025-09-13",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mfrzj5np7k4j0g9jkj5",
+          "consumeRecordId": "mfrzj5nprxgf7ngyni",
+          "date": "2025-09-20",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mg1tfiltx34wn5uzuqn",
+          "consumeRecordId": "mg1tfilt4za0zm9ulcd",
+          "date": "2025-09-27",
+          "change": 7.5,
+          "note": "消课1.5课时奖励积分"
+        },
+        {
+          "id": "mgnfbfbks3ewrvx1kmj",
+          "consumeRecordId": "mgnfbfbk09lpejkh4xk",
+          "date": "2025-10-12",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgx7r36r01mlvidpz64p",
+          "consumeRecordId": "mgx7r36rmeubl3kz2w",
+          "date": "2025-10-19",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgx9g5tahg9tu4mf974",
+          "consumeRecordId": "mgx9g5ta7z9i2v76to",
+          "date": "2025-10-12",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mh7deb9ajz2o5iy0l7",
+          "consumeRecordId": "mh7deb9apz3saqxjzn",
+          "date": "2025-10-26",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        }
+      ],
+      "scheduleDays": [
+        0
+      ]
+    },
+    {
+      "id": 1024002,
+      "name": "周程杰",
+      "gender": "男",
+      "age": 11,
+      "school": "锡林南路小学",
+      "parentName": "刘娟",
+      "parentPhone": "18209508866",
+      "course": "C++语法基础班",
+      "remainingHours": 40,
+      "consumeRecords": [
+        {
+          "id": "mfi06q6ykqkjjfhwq2",
+          "date": "2025-09-09",
+          "hours": -2,
+          "note": "C++语法1"
+        },
+        {
+          "id": "mfjl1sxxh307g3i8lrr",
+          "date": "2025-09-14",
+          "hours": -2,
+          "note": "C++语法基础2"
+        },
+        {
+          "id": "mfvvp4c2tj74ghkqakf",
+          "date": "2025-09-21",
+          "hours": -2,
+          "note": "C++语法基础课-判断语句2"
+        },
+        {
+          "id": "mg1texcgvppkdmusm8e",
+          "date": "2025-09-27",
+          "hours": -2,
+          "note": "C++语法基础-循环结构"
+        },
+        {
+          "id": "mgrxx9r6fbjo799fi3m",
+          "date": "2025-10-12",
+          "hours": -2,
+          "note": "C++语法复习"
+        },
+        {
+          "id": "mgrxxmepjz6vxurqirf",
+          "date": "2025-10-15",
+          "hours": -2,
+          "note": "C++基础语法-复习-数组"
+        },
+        {
+          "id": "mgrycump5ew1yft4ln",
+          "date": "2025-09-24",
+          "hours": -2,
+          "note": "C++语法基础 - 循环语句"
+        },
+        {
+          "id": "mgrye42vnxzbs9ps2l",
+          "date": "2025-09-17",
+          "hours": -2,
+          "note": "C++语法基础-判断语句"
+        },
+        {
+          "id": "mgxixzin2p898sw7xih",
+          "date": "2025-10-19",
+          "hours": -2,
+          "note": "C++语法基础--数组"
+        },
+        {
+          "id": "mh4sm3f89wx3afef19",
+          "date": "2025-10-22",
+          "hours": -2,
+          "note": "C++基础语法 - 多维数组"
+        },
+        {
+          "id": "mh7gvakufl3n2jm992j",
+          "date": "2025-10-26",
+          "hours": -2,
+          "note": "C++ 语法基础 数组 复习课"
+        },
+        {
+          "id": "mhbt8r6053gep6ghaa",
+          "date": "2025-10-29",
+          "hours": -2,
+          "note": "C++ 语法基础 字符串"
+        }
+      ],
+      "points": 130,
+      "pointsHistory": [
+        {
+          "id": "mfi06q6yqss3d6y6sck",
+          "consumeRecordId": "mfi06q6ykqkjjfhwq2",
+          "date": "2025-09-09",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mfjl1sxxg06dhsselrv",
+          "consumeRecordId": "mfjl1sxxh307g3i8lrr",
+          "date": "2025-09-14",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mfrzjypp5qzrog23e5i",
+          "consumeRecordId": "mfrzjyppkbmuj1tx6ob",
+          "date": "2025-09-20",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mfvvp4c2dnz45tfben",
+          "consumeRecordId": "mfvvp4c2tj74ghkqakf",
+          "date": "2025-09-21",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mg1texcgeresyvh7bmm",
+          "consumeRecordId": "mg1texcgvppkdmusm8e",
+          "date": "2025-09-27",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgrxx9r6i5lseeekss",
+          "consumeRecordId": "mgrxx9r6fbjo799fi3m",
+          "date": "2025-10-12",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgrxxmeptmsfqagrkqc",
+          "consumeRecordId": "mgrxxmepjz6vxurqirf",
+          "date": "2025-10-15",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgrycumpk5fykxvplz",
+          "consumeRecordId": "mgrycump5ew1yft4ln",
+          "date": "2025-09-24",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgrye42v2lvl9ls6tli",
+          "consumeRecordId": "mgrye42vnxzbs9ps2l",
+          "date": "2025-09-17",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgxixzinr86ofk4fth",
+          "consumeRecordId": "mgxixzin2p898sw7xih",
+          "date": "2025-10-19",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mh4sm3f88tml1jf2pm",
+          "consumeRecordId": "mh4sm3f89wx3afef19",
+          "date": "2025-10-22",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mh7gvakutw8f43um27h",
+          "consumeRecordId": "mh7gvakufl3n2jm992j",
+          "date": "2025-10-26",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mhbt8r60am65ywofdg8",
+          "consumeRecordId": "mhbt8r6053gep6ghaa",
+          "date": "2025-10-29",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        }
+      ],
+      "scheduleDays": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": 1024004,
+      "name": "赵芯冉",
+      "gender": "女",
+      "age": 12,
+      "school": "实验中学东河校区",
+      "parentName": "——",
+      "parentPhone": "——",
+      "course": "Python基础班",
+      "remainingHours": 94,
+      "consumeRecords": [
+        {
+          "id": "mgx975fy1lvtowr00le",
+          "date": "2025-10-12",
+          "hours": -2,
+          "note": "Python语法基础1 - 顺序结构，变量，运算"
+        },
+        {
+          "id": "mgx97gxye1r7viu87eq",
+          "date": "2025-10-19",
+          "hours": -2,
+          "note": "Python语法基础2 - 输入、输出"
+        },
+        {
+          "id": "mgx9bfaezltai50pfs",
+          "date": "2025-10-10",
+          "hours": 100,
+          "note": "未付款，临时记录"
+        },
+        {
+          "id": "mh7de4liw7niw36k47",
+          "date": "2025-10-26",
+          "hours": -2,
+          "note": "Python语法基础3 - 判断语句"
+        }
+      ],
+      "points": 30,
+      "pointsHistory": [
+        {
+          "id": "mgx975fykvrqoaoq3z",
+          "consumeRecordId": "mgx975fy1lvtowr00le",
+          "date": "2025-10-12",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mgx97gxy5n50b4h9chc",
+          "consumeRecordId": "mgx97gxye1r7viu87eq",
+          "date": "2025-10-19",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        },
+        {
+          "id": "mh7de4lih2s3vjyx0bd",
+          "consumeRecordId": "mh7de4liw7niw36k47",
+          "date": "2025-10-26",
+          "change": 10,
+          "note": "消课2课时奖励积分"
+        }
+      ],
+      "scheduleDays": [
+        0
+      ]
+    },
+    {
+      "id": 1024000,
+      "name": "小布老师",
+      "gender": "男",
+      "age": 25,
+      "school": "壹零贰肆少儿编程中心",
+      "parentName": "——",
+      "parentPhone": "15044871232",
+      "course": "校内辅导课",
+      "remainingHours": 9981,
+      "consumeRecords": [
+        {
+          "id": "mh60ir9urrz0ku7fckh",
+          "date": "2025-08-25",
+          "hours": -1,
+          "note": "南马路新华西街小学无人机"
+        },
+        {
+          "id": "mh60j9zm5np0avr7wfi",
+          "date": "2025-09-11",
+          "hours": -1,
+          "note": "建华小学无人机"
+        },
+        {
+          "id": "mh60jofm0eu8a1hlqhbn",
+          "date": "2025-09-15",
+          "hours": -1,
+          "note": "县府街小学无人机"
+        },
+        {
+          "id": "mh60k2krnq3jt940uhr",
+          "date": "2025-09-18",
+          "hours": -1,
+          "note": "建华小学无人机"
+        },
+        {
+          "id": "mh60kfjemant2spxor",
+          "date": "2025-09-19",
+          "hours": -1,
+          "note": "三十中无人机"
+        },
+        {
+          "id": "mh60kyf6bovy35m0oy6",
+          "date": "2025-09-22",
+          "hours": -1,
+          "note": "县府街无人机"
+        },
+        {
+          "id": "mh60l85n3dwvrlbaxid",
+          "date": "2025-09-25",
+          "hours": -1,
+          "note": "建华小学无人机"
+        },
+        {
+          "id": "mh60lmfvq47bapfu4t",
+          "date": "2025-09-25",
+          "hours": -1,
+          "note": "贝尔路小学航模"
+        },
+        {
+          "id": "mh60m2u3nj9xbbnk2g",
+          "date": "2025-09-26",
+          "hours": -1,
+          "note": "三十中无人机"
+        },
+        {
+          "id": "mh60m95uyir16ylad3l",
+          "date": "2025-10-09",
+          "hours": -1,
+          "note": "建华小学无人机"
+        },
+        {
+          "id": "mh60mm0q9uyfji1yrn",
+          "date": "2025-10-11",
+          "hours": -1,
+          "note": "建华小学无人机"
+        },
+        {
+          "id": "mh60n8behfp9ooc81nr",
+          "date": "2025-10-13",
+          "hours": -1,
+          "note": "县府街无人机"
+        },
+        {
+          "id": "mh60nlvm3y7yliew1qt",
+          "date": "2025-10-16",
+          "hours": -1,
+          "note": "建华小学无人机"
+        },
+        {
+          "id": "mh60ny9li6drpf073y",
+          "date": "2025-10-18",
+          "hours": -1,
+          "note": "回民实验无人机"
+        },
+        {
+          "id": "mh60o6jdqrm409p5zf",
+          "date": "2025-10-20",
+          "hours": -1,
+          "note": "县府街无人机"
+        },
+        {
+          "id": "mh60of4a3agjwiql2zl",
+          "date": "2025-10-23",
+          "hours": -1,
+          "note": "建华小学无人机"
+        },
+        {
+          "id": "mh60oqgaecwvftuk934",
+          "date": "2025-10-24",
+          "hours": -1,
+          "note": "回民实验无人机"
+        },
+        {
+          "id": "mh60q48iuy3xa1ze0kj",
+          "date": "2025-09-29",
+          "hours": -1,
+          "note": "县府街无人机"
+        },
+        {
+          "id": "mh60qgaq5rskhh62r7p",
+          "date": "2025-09-12",
+          "hours": -1,
+          "note": "三十中无人机"
+        }
+      ],
+      "points": 95,
+      "pointsHistory": [
+        {
+          "id": "mh60ir9u5x0539p2f8",
+          "consumeRecordId": "mh60ir9urrz0ku7fckh",
+          "date": "2025-08-25",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60j9zmrrfh1tm49qf",
+          "consumeRecordId": "mh60j9zm5np0avr7wfi",
+          "date": "2025-09-11",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60jofmet5e98ywste",
+          "consumeRecordId": "mh60jofm0eu8a1hlqhbn",
+          "date": "2025-09-15",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60k2kr6r27vnabjew",
+          "consumeRecordId": "mh60k2krnq3jt940uhr",
+          "date": "2025-09-18",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60kfjemd23m5hi2ym",
+          "consumeRecordId": "mh60kfjemant2spxor",
+          "date": "2025-09-19",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60kyf6inietnvrty",
+          "consumeRecordId": "mh60kyf6bovy35m0oy6",
+          "date": "2025-09-22",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60l85n96u4rmbmn2t",
+          "consumeRecordId": "mh60l85n3dwvrlbaxid",
+          "date": "2025-09-25",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60lmfv8odkyqj9e27",
+          "consumeRecordId": "mh60lmfvq47bapfu4t",
+          "date": "2025-09-25",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60m2u3gqmh24a1dzf",
+          "consumeRecordId": "mh60m2u3nj9xbbnk2g",
+          "date": "2025-09-26",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60m95urywloc8stu",
+          "consumeRecordId": "mh60m95uyir16ylad3l",
+          "date": "2025-10-09",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60mm0qz97fqb6h2c9",
+          "consumeRecordId": "mh60mm0q9uyfji1yrn",
+          "date": "2025-10-11",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60n8bexa9smu0d3v",
+          "consumeRecordId": "mh60n8behfp9ooc81nr",
+          "date": "2025-10-13",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60nlvmhj512b9x0sh",
+          "consumeRecordId": "mh60nlvm3y7yliew1qt",
+          "date": "2025-10-16",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60ny9lf9qjohux6zc",
+          "consumeRecordId": "mh60ny9li6drpf073y",
+          "date": "2025-10-18",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60o6jd31zdbj7qryx",
+          "consumeRecordId": "mh60o6jdqrm409p5zf",
+          "date": "2025-10-20",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60of4a741qwsuy3ey",
+          "consumeRecordId": "mh60of4a3agjwiql2zl",
+          "date": "2025-10-23",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60oqgahyubcaaf3ec",
+          "consumeRecordId": "mh60oqgaecwvftuk934",
+          "date": "2025-10-24",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60q48ia4w4k2w0k8d",
+          "consumeRecordId": "mh60q48iuy3xa1ze0kj",
+          "date": "2025-09-29",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        },
+        {
+          "id": "mh60qgaqjv4wpwtpdp",
+          "consumeRecordId": "mh60qgaq5rskhh62r7p",
+          "date": "2025-09-12",
+          "change": 5,
+          "note": "消课1课时奖励积分"
+        }
+      ],
+      "scheduleDays": [
+        6,
+        0
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Scratch基础班",
+      "level": "初级",
+      "description": "图形化编程入门课程，适合8-12岁零基础学员",
+      "capacity": 20,
+      "enrollCount": 0
+    },
+    {
+      "id": 2,
+      "name": "Scratch进阶班",
+      "level": "中级",
+      "description": "进阶课程，学习复杂项目开发，适合已掌握Scratch基础的学员",
+      "capacity": 20,
+      "enrollCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Python基础班",
+      "level": "初级",
+      "description": "Python编程基础语法与简单应用开发，适合12岁以上零基础学员",
+      "capacity": 20,
+      "enrollCount": 2
+    },
+    {
+      "id": 4,
+      "name": "Python进阶班",
+      "level": "中级",
+      "description": "Python高级特性与项目实战，适合已掌握Python基础的学员",
+      "capacity": 20,
+      "enrollCount": 0
+    },
+    {
+      "id": 5,
+      "name": "Web开发班",
+      "level": "中级",
+      "description": "HTML、CSS和JavaScript基础，网站开发实战课程",
+      "capacity": 20,
+      "enrollCount": 0
+    },
+    {
+      "id": 6,
+      "name": "游戏开发班",
+      "level": "中级",
+      "description": "使用Unity引擎开发2D和3D游戏，需要编程基础",
+      "capacity": 20,
+      "enrollCount": 0
+    },
+    {
+      "id": 7,
+      "name": "C++语法基础班",
+      "level": "初级",
+      "description": "C++基础语法与程序设计，适合13岁以上零基础学员",
+      "capacity": 20,
+      "enrollCount": 1
+    },
+    {
+      "id": 8,
+      "name": "C++算法基础班",
+      "level": "中级",
+      "description": "基础算法与数据结构，需要C++语法基础",
+      "capacity": 20,
+      "enrollCount": 1
+    },
+    {
+      "id": 9,
+      "name": "C++算法进阶班",
+      "level": "高级",
+      "description": "高级算法与竞赛技巧，适合已掌握基础算法的学员",
+      "capacity": 20,
+      "enrollCount": 0
+    },
+    {
+      "id": 10,
+      "name": "竞赛辅导班",
+      "level": "高级",
+      "description": "信息学奥赛、蓝桥杯等比赛辅导，需要较好的算法基础",
+      "capacity": 20,
+      "enrollCount": 0
+    },
+    {
+      "id": 11,
+      "name": "校内辅导课",
+      "level": "初级",
+      "description": "校内辅导课程，针对学校课程进行辅导和答疑",
+      "capacity": 20,
+      "enrollCount": 1
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2024-10-14",
+      "type": "收入",
+      "amount": 4500,
+      "category": "学费",
+      "note": "田沛哲C++学费",
+      "id": 1744186960712
+    },
+    {
+      "date": "2025-03-15",
+      "type": "收入",
+      "amount": 7200,
+      "category": "学费",
+      "note": "田沛哲C++学费",
+      "id": 1744186994000
+    },
+    {
+      "date": "2025-03-16",
+      "type": "收入",
+      "amount": 1288,
+      "category": "学费",
+      "note": "杨帆Scratch学费",
+      "id": 1744187177600
+    },
+    {
+      "date": "2024-12-31",
+      "type": "收入",
+      "amount": 4000,
+      "category": "学费",
+      "note": "田沛哲假期班学费",
+      "id": 1744187208952
+    },
+    {
+      "date": "2025-03-11",
+      "type": "支出",
+      "amount": 597,
+      "category": "其他",
+      "note": "玩具",
+      "id": 1744187267816
+    },
+    {
+      "date": "2024-10-09",
+      "type": "支出",
+      "amount": 438,
+      "category": "其他",
+      "note": "玩具",
+      "id": 1744187307639
+    },
+    {
+      "id": 1744187382488,
+      "date": "2024-09-05",
+      "type": "支出",
+      "amount": 45000,
+      "category": "租金",
+      "note": "房租-2025.11.5"
+    },
+    {
+      "date": "2024-09-04",
+      "type": "支出",
+      "amount": 3000,
+      "category": "租金",
+      "note": "押金",
+      "id": 1744187944960
+    },
+    {
+      "date": "2024-09-06",
+      "type": "支出",
+      "amount": 3900,
+      "category": "其他",
+      "note": "电脑6台",
+      "id": 1744188005760
+    },
+    {
+      "date": "2024-09-18",
+      "type": "支出",
+      "amount": 16,
+      "category": "其他",
+      "note": "无线网卡",
+      "id": 1744188300959
+    },
+    {
+      "date": "2024-09-19",
+      "type": "支出",
+      "amount": 14.55,
+      "category": "其他",
+      "note": "无线网卡",
+      "id": 1744188319536
+    },
+    {
+      "id": 1744188449247,
+      "date": "2024-09-24",
+      "type": "支出",
+      "amount": 89,
+      "category": "其他",
+      "note": "A4纸"
+    },
+    {
+      "id": 1744188478175,
+      "date": "2024-09-26",
+      "type": "支出",
+      "amount": 39.14,
+      "category": "其他",
+      "note": "小拼装玩具"
+    },
+    {
+      "date": "2024-09-28",
+      "type": "支出",
+      "amount": 35,
+      "category": "其他",
+      "note": "卡片巴拉挂件",
+      "id": 1744188501584
+    },
+    {
+      "date": "2024-09-28",
+      "type": "支出",
+      "amount": 19.56,
+      "category": "其他",
+      "note": "二维码展示架",
+      "id": 1744188557256
+    },
+    {
+      "date": "2024-10-08",
+      "type": "支出",
+      "amount": 50,
+      "category": "其他",
+      "note": "传单",
+      "id": 1744188585055
+    },
+    {
+      "date": "2024-09-30",
+      "type": "支出",
+      "amount": 126,
+      "category": "其他",
+      "note": "文化墙KT板",
+      "id": 1744188609367
+    },
+    {
+      "id": 1745547584731,
+      "date": "2025-04-23",
+      "type": "收入",
+      "amount": 1788,
+      "category": "学费",
+      "note": "张稼鑫青科赛培训费用"
+    },
+    {
+      "date": "2025-04-23",
+      "type": "支出",
+      "amount": 498,
+      "category": "其他",
+      "note": "张稼鑫青科赛报名费+赛事服务费",
+      "id": 1745547616550
+    },
+    {
+      "date": "2025-06-07",
+      "type": "收入",
+      "amount": 4188,
+      "category": "学费",
+      "note": "杨帆-Scratch续费",
+      "id": 1749271777001
+    },
+    {
+      "date": "2025-05-24",
+      "type": "收入",
+      "amount": 130,
+      "category": "其他",
+      "note": "青科赛返款",
+      "id": 1749271864744
+    },
+    {
+      "date": "2025-06-07",
+      "type": "收入",
+      "amount": 5688,
+      "category": "学费",
+      "note": "张稼鑫续费",
+      "id": 1752147216408
+    },
+    {
+      "id": 1752147235728,
+      "date": "2025-06-22",
+      "type": "收入",
+      "amount": 3400,
+      "category": "学费",
+      "note": "田沛哲续费36课时"
+    },
+    {
+      "date": "2025-09-07",
+      "type": "收入",
+      "amount": 10000,
+      "category": "学费",
+      "note": "田沛哲续费64课时+假期8课时+比赛差旅",
+      "id": 1757238123141
+    },
+    {
+      "date": "2025-09-07",
+      "type": "支出",
+      "amount": 342,
+      "category": "其他",
+      "note": "素养大赛决赛比赛差旅",
+      "id": 1757238162255
+    },
+    {
+      "id": 1757752215258,
+      "date": "2025-09-09",
+      "type": "收入",
+      "amount": 5376,
+      "category": "学费",
+      "note": "周程杰C++语法基础课64课时学费"
+    },
+    {
+      "date": "2025-06-17",
+      "type": "收入",
+      "amount": 100,
+      "category": "其他",
+      "note": "5月份校内无人机上课费用",
+      "id": 1760854601711
+    },
+    {
+      "date": "2025-07-17",
+      "type": "收入",
+      "amount": 700,
+      "category": "其他",
+      "note": "6月份无人机上课费用",
+      "id": 1760854633255
+    },
+    {
+      "date": "2025-08-21",
+      "type": "收入",
+      "amount": 600,
+      "category": "其他",
+      "note": "7月份无人机上课费用",
+      "id": 1760854665110
+    },
+    {
+      "date": "2025-10-17",
+      "type": "收入",
+      "amount": 1150,
+      "category": "其他",
+      "note": "8-9月份无人机上课费用",
+      "id": 1760854713416
+    },
+    {
+      "date": "2025-10-29",
+      "type": "支出",
+      "amount": 35000,
+      "category": "租金",
+      "note": "2025.11.6- 2026.11.16",
+      "id": 1761729511899
+    },
+    {
+      "id": 1761731041375,
+      "date": "2025-10-29",
+      "type": "支出",
+      "amount": 242.18,
+      "category": "其他",
+      "note": "一周年活动花费：\n1. 海报4张，KT板一张 共计103\n2. 布置挂布，堆堆盒 55\n3. 3M魔力帖 23.02\n4. 气球 7.98 + 8.28\n5. 糖果 32 + 12.9"
+    },
+    {
+      "date": "2025-10-30",
+      "type": "支出",
+      "amount": 905,
+      "category": "其他",
+      "note": "玩具",
+      "id": 1761827446210
+    },
+    {
+      "date": "2025-10-30",
+      "type": "支出",
+      "amount": 181.9,
+      "category": "其他",
+      "note": "零食",
+      "id": 1761827467386
+    }
+  ],
+  "attendance": {
+    "2025-10-25": {
+      "1024000": {
+        "checkIn": "2025-10-25T15:05:00",
+        "status": "present"
+      },
+      "1024001": {
+        "checkIn": "2025-10-25T17:18:00",
+        "status": "present",
+        "checkOut": "2025-10-25T19:26:00"
+      },
+      "1024003": {
+        "checkIn": "2025-10-25T14:27:00",
+        "status": "present",
+        "checkOut": "2025-10-25T16:17:00"
+      }
+    },
+    "2025-10-26": {
+      "1024000": {
+        "checkIn": "2025-10-26T15:05:00",
+        "status": "present",
+        "checkOut": "2025-10-26T20:48:00"
+      },
+      "1024001": {
+        "checkIn": "2025-10-26T14:05:00",
+        "status": "late",
+        "checkOut": "2025-10-26T16:07:00"
+      },
+      "1024002": {
+        "checkIn": "2025-10-26T16:43:00",
+        "status": "present",
+        "checkOut": "2025-10-26T18:48:00"
+      },
+      "1024004": {
+        "checkIn": "2025-10-26T09:56:00",
+        "status": "present",
+        "checkOut": "2025-10-26T12:14:00"
+      },
+      "1024005": {
+        "checkIn": "2025-10-26T09:59:00",
+        "status": "present",
+        "checkOut": "2025-10-26T12:14:00"
+      }
+    },
+    "2025-10-22": {
+      "1024002": {
+        "checkIn": "2025-10-22T16:32:00",
+        "status": "present"
+      }
+    },
+    "2025-10-29": {
+      "1024002": {
+        "checkIn": "2025-10-29T16:40:00",
+        "status": "present",
+        "checkOut": "2025-10-29T18:43:00"
+      }
+    }
+  },
+  "leaveRecords": {},
+  "schedule": {
+    "0": "no_course",
+    "1": "no_course",
+    "2": "no_course",
+    "3": "no_course",
+    "4": "no_course",
+    "5": "no_course",
+    "6": "no_course",
+    "7": "no_course",
+    "8": "no_course",
+    "9": "no_course",
+    "10": "no_course",
+    "11": "no_course",
+    "12": "no_course",
+    "13": "3",
+    "14": "no_course",
+    "15": "no_course",
+    "16": "no_course",
+    "17": "11",
+    "18": "no_course",
+    "19": "2",
+    "20": "8",
+    "21": "11",
+    "22": "no_course",
+    "23": "no_course",
+    "24": "no_course",
+    "25": "11",
+    "26": "8",
+    "27": "7",
+    "28": "no_course",
+    "29": "no_course",
+    "30": "7",
+    "31": "no_course",
+    "32": "no_course",
+    "33": "no_course",
+    "34": "no_course"
+  },
+  "pointsStoreProducts": [
+    {
+      "id": "PROD17618343855430gwd5r1jf",
+      "name": "旺仔牛奶",
+      "category": "饮品",
+      "points": 30,
+      "image": "https://bu.dusays.com/2025/10/30/6903750a3945d.jpg",
+      "description": "",
+      "stock": 16
+    },
+    {
+      "id": "PROD1761834353623j83a3f9px",
+      "name": "旺旺维利多",
+      "category": "饮品",
+      "points": 20,
+      "image": "https://bu.dusays.com/2025/10/30/6903750a59f9b.jpg",
+      "description": "",
+      "stock": 4
+    },
+    {
+      "id": "PROD1761834290967r90p48gbc",
+      "name": "脉动",
+      "category": "饮品",
+      "points": 30,
+      "image": "https://bu.dusays.com/2025/10/30/6903750a50e84.jpg",
+      "description": "",
+      "stock": 6
+    },
+    {
+      "id": "PROD1761834176127ga7ik313c",
+      "name": "好多鱼",
+      "category": "零食",
+      "points": 50,
+      "image": "https://bu.dusays.com/2025/10/30/690370dd04df6.jpg",
+      "description": "",
+      "stock": 2
+    },
+    {
+      "id": "PROD17618340929583jjpmzaxg",
+      "name": "蘑菇力",
+      "category": "零食",
+      "points": 30,
+      "image": "https://bu.dusays.com/2025/10/30/690370dcec093.jpg",
+      "description": "",
+      "stock": 2
+    },
+    {
+      "id": "PROD17618339083501sjdc8s5e",
+      "name": "旺仔牛奶糖",
+      "category": "零食",
+      "points": 10,
+      "image": "https://bu.dusays.com/2025/10/30/690370dcc1d11.jpg",
+      "description": "",
+      "stock": 5
+    },
+    {
+      "id": "PROD1761833851590x4ercssjh",
+      "name": "彩虹糖",
+      "category": "零食",
+      "points": 10,
+      "image": "https://bu.dusays.com/2025/10/30/690370dcb8a81.jpg",
+      "description": "",
+      "stock": 13
+    },
+    {
+      "id": "PROD1761833767534w76vyd9dj",
+      "name": "好丽友浪里个浪40g",
+      "category": "零食",
+      "points": 30,
+      "image": "https://bu.dusays.com/2025/10/30/690370dcbfef9.jpg",
+      "description": "",
+      "stock": 2
+    },
+    {
+      "id": "PROD1761833664918xhzc0mb7p",
+      "name": "奥利奥(盒)",
+      "category": "零食",
+      "points": 50,
+      "image": "https://bu.dusays.com/2025/10/30/690370dcc4d66.jpg",
+      "description": "",
+      "stock": 4
+    },
+    {
+      "id": "PROD1761833620422mukfmsbro",
+      "name": "士力架",
+      "category": "零食",
+      "points": 20,
+      "image": "https://bu.dusays.com/2025/10/30/690370dcafcab.jpg",
+      "description": "",
+      "stock": 14
+    },
+    {
+      "id": "PROD1761833559638p8wfev0co",
+      "name": "上好佳粟米条",
+      "category": "零食",
+      "points": 20,
+      "image": "https://bu.dusays.com/2025/10/30/690370dcad852.jpg",
+      "description": "",
+      "stock": 2
+    },
+    {
+      "id": "PROD176183342238299wrkj85o",
+      "name": "乐事薯片",
+      "category": "零食",
+      "points": 20,
+      "image": "https://bu.dusays.com/2025/10/30/690370dc8f42b.jpg",
+      "description": "",
+      "stock": 2
+    },
+    {
+      "id": "PROD1761833264486sd04rz818",
+      "name": "AD钙奶(瓶)",
+      "category": "饮品",
+      "points": 20,
+      "image": "https://bu.dusays.com/2025/10/30/690370dc9f129.jpg",
+      "description": "",
+      "stock": 8
+    },
+    {
+      "id": "PROD1761830335228feqpvr93w",
+      "name": "奥特曼小车",
+      "category": "玩具",
+      "points": 20,
+      "image": "https://bu.dusays.com/2025/10/30/69036a893a018.jpg",
+      "description": "",
+      "stock": 4
+    },
+    {
+      "id": "PROD1761830307109uvte5dwq4",
+      "name": "烈焰战神、忍者武士拼装",
+      "category": "玩具",
+      "points": 150,
+      "image": "https://bu.dusays.com/2025/10/30/69036a8950d06.jpg",
+      "description": "",
+      "stock": 8
+    },
+    {
+      "id": "PROD1761830238860ad1ii66m6",
+      "name": "合金小车",
+      "category": "玩具",
+      "points": 50,
+      "image": "https://bu.dusays.com/2025/10/30/69036a8910c52.jpg",
+      "description": "",
+      "stock": 4
+    },
+    {
+      "id": "PROD1761830203508g6q1gafhl",
+      "name": "机动战士拼装",
+      "category": "玩具",
+      "points": 180,
+      "image": "https://bu.dusays.com/2025/10/30/69036af3ea819.jpg",
+      "description": "",
+      "stock": 1
+    },
+    {
+      "id": "PROD17618301700446dsp8i4i8",
+      "name": "龙之九子系列",
+      "category": "玩具",
+      "points": 390,
+      "image": "https://bu.dusays.com/2025/10/30/690367a8c5f7f.jpg",
+      "description": "",
+      "stock": 1
+    },
+    {
+      "id": "PROD17618301335160yt6ohyym",
+      "name": "可爱谷子百宝箱礼盒",
+      "category": "玩具",
+      "points": 130,
+      "image": "https://bu.dusays.com/2025/10/30/69036a8910c54.jpg",
+      "description": "",
+      "stock": 1
+    },
+    {
+      "id": "PROD1761830089644j1b7ltafx",
+      "name": "大学系列拼装",
+      "category": "玩具",
+      "points": 290,
+      "image": "https://bu.dusays.com/2025/10/30/690367a8bc8ae.jpg",
+      "description": "",
+      "stock": 3
+    },
+    {
+      "id": "PROD1761830011300h7tageh3j",
+      "name": "卡皮巴拉钥匙扣",
+      "category": "玩具",
+      "points": 20,
+      "image": "https://bu.dusays.com/2025/10/30/69036a8945bbc.jpg",
+      "description": "",
+      "stock": 13
+    },
+    {
+      "id": "PROD1761829993140nnvkl831u",
+      "name": "小卡通人物拼装",
+      "category": "玩具",
+      "points": 20,
+      "image": "https://bu.dusays.com/2025/10/30/69036a89163d5.jpg",
+      "description": "",
+      "stock": 5
+    },
+    {
+      "id": "PROD1761829959084lo1vcsm6x",
+      "name": "科学小实验",
+      "category": "玩具",
+      "points": 50,
+      "image": "https://bu.dusays.com/2025/10/30/69036a894e570.jpg",
+      "description": "",
+      "stock": 3
+    },
+    {
+      "id": "PROD1761829933188t9f9u18j7",
+      "name": "宫灯系列拼装",
+      "category": "玩具",
+      "points": 100,
+      "image": "https://bu.dusays.com/2025/10/30/69036a8937b41.jpg",
+      "description": "",
+      "stock": 42
+    },
+    {
+      "id": "PROD1761829866876vsfkrx03y",
+      "name": "大型奥特曼模型",
+      "category": "玩具",
+      "points": 100,
+      "image": "https://bu.dusays.com/2025/10/30/69036a894db9d.jpg",
+      "description": "",
+      "stock": 16
+    },
+    {
+      "id": "PROD17618298472924i0hh9j4k",
+      "name": "小型奥特曼模型",
+      "category": "玩具",
+      "points": 80,
+      "image": "https://bu.dusays.com/2025/10/30/69036a89325d6.jpg",
+      "description": "",
+      "stock": 6
+    },
+    {
+      "id": "PROD1761829781092dwt7bvmqx",
+      "name": "特技侧行车",
+      "category": "玩具",
+      "points": 430,
+      "image": "https://bu.dusays.com/2025/10/30/690367a8c128e.jpg",
+      "description": "",
+      "stock": 2
+    },
+    {
+      "id": "PROD176182975625121607yj3k",
+      "name": "磁性MC方块",
+      "category": "玩具",
+      "points": 240,
+      "image": "https://bu.dusays.com/2025/10/30/690367a8c5454.jpg",
+      "description": "",
+      "stock": 4
+    },
+    {
+      "id": "PROD17618297241471jlpuq1y8",
+      "name": "可遥控拼装赛车",
+      "category": "玩具",
+      "points": 350,
+      "image": "https://bu.dusays.com/2025/10/30/690367a8c1266.jpg",
+      "description": "",
+      "stock": 4
+    },
+    {
+      "id": "PROD1761829664403d9x6ok9q7",
+      "name": "大型霹雳摩托轨道车",
+      "category": "玩具",
+      "points": 310,
+      "image": "https://bu.dusays.com/2025/10/30/690367a8c2611.jpg",
+      "description": "",
+      "stock": 3
+    },
+    {
+      "id": "PROD1761829629587piawqy04x",
+      "name": "小型恐龙摩托轨道车",
+      "category": "玩具",
+      "points": 125,
+      "image": "https://bu.dusays.com/2025/10/30/690367a8a57e6.jpg",
+      "description": "",
+      "stock": 4
+    },
+    {
+      "id": "PROD1761829581628lh7nxdozz",
+      "name": "MP9/UZI 手自一体双模式水弹枪",
+      "category": "玩具",
+      "points": 350,
+      "image": "https://bu.dusays.com/2025/10/30/690367a8d9dd6.jpg",
+      "description": "",
+      "stock": 4
+    },
+    {
+      "id": "PROD17618295361963zyk1q9iy",
+      "name": "Vector 电动连发冲锋枪",
+      "category": "玩具",
+      "points": 310,
+      "image": "https://bu.dusays.com/2025/10/30/690368760a763.jpg",
+      "description": "",
+      "stock": 4
+    }
+  ],
+  "exportDate": "2025-10-30T14:27:35.007Z",
+  "version": "2.1"
+}

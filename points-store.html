@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>积分商城 - 壹零贰肆少儿编程中心</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/points-store.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">
+                <i class="fas fa-store"></i>
+                壹零贰肆积分商城
+            </h1>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                返回首页
+            </a>
+        </div>
+    </header>
+
+    <!-- 主容器 -->
+    <main class="container">
+        <!-- 积分查询区域 -->
+        <section class="points-query">
+            <h2 class="section-title">
+                <i class="fas fa-search"></i>
+                积分查询
+            </h2>
+            <div class="query-form">
+                <div class="input-group">
+                    <label for="studentId">学号</label>
+                    <input type="text" id="studentId" placeholder="请输入学号，例如：1024001">
+                </div>
+                <div class="input-group">
+                    <label for="studentName">姓名</label>
+                    <input type="text" id="studentName" placeholder="请输入姓名">
+                </div>
+                <button class="query-btn" onclick="queryPoints()">
+                    <i class="fas fa-search"></i>
+                    查询积分
+                </button>
+            </div>
+            <div class="query-result" id="queryResult"></div>
+        </section>
+
+        <!-- 管理员控制面板 -->
+        <section class="admin-panel" id="adminPanel" style="display: none;">
+            <h2 class="section-title">
+                <i class="fas fa-user-shield"></i>
+                管理员控制面板
+            </h2>
+            
+            <!-- 数据统计 -->
+            <div class="data-stats" id="dataStats">
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <span class="stat-label">学生数据</span>
+                        <span class="stat-value" id="statStudents">加载中...</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-gift"></i>
+                    <div>
+                        <span class="stat-label">商品数据</span>
+                        <span class="stat-value" id="statProducts">加载中...</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-coins"></i>
+                    <div>
+                        <span class="stat-label">总积分</span>
+                        <span class="stat-value" id="statPoints">加载中...</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-warehouse"></i>
+                    <div>
+                        <span class="stat-label">总库存</span>
+                        <span class="stat-value" id="statStock">加载中...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="admin-controls">
+                <div class="admin-control-item">
+                    <h3><i class="fas fa-upload"></i> 上传数据文件</h3>
+                    <p class="control-desc">上传JSON文件以更新学生和商品数据</p>
+                    <input type="file" id="jsonFileInput" accept=".json" style="display: none;">
+                    <button class="admin-btn" onclick="document.getElementById('jsonFileInput').click()">
+                        <i class="fas fa-file-upload"></i>
+                        选择JSON文件
+                    </button>
+                    <span id="fileName" class="file-name"></span>
+                </div>
+                <div class="admin-control-item">
+                    <h3><i class="fas fa-download"></i> 导出数据</h3>
+                    <p class="control-desc">导出当前的学生和商品数据</p>
+                    <button class="admin-btn" onclick="exportData()">
+                        <i class="fas fa-download"></i>
+                        导出JSON文件
+                    </button>
+                </div>
+                <div class="admin-control-item">
+                    <h3><i class="fas fa-plus-circle"></i> 添加商品</h3>
+                    <p class="control-desc">添加新的积分商品到商城</p>
+                    <button class="admin-btn" onclick="showAddProductModal()">
+                        <i class="fas fa-plus"></i>
+                        添加新商品
+                    </button>
+                </div>
+                <div class="admin-control-item">
+                    <h3><i class="fas fa-sync"></i> 同步管理系统数据</h3>
+                    <p class="control-desc">从后台管理系统获取学生和商品数据</p>
+                    <button class="admin-btn" onclick="showSyncModal()">
+                        <i class="fas fa-exchange-alt"></i>
+                        获取系统数据
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 商品展示区域 -->
+        <section class="products-section">
+            <h2 class="section-title">
+                <i class="fas fa-gift"></i>
+                商品列表
+                <span id="adminModeIndicator" class="admin-indicator" style="display: none;">
+                    <i class="fas fa-crown"></i> 管理员模式
+                </span>
+            </h2>
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">全部</button>
+                <button class="filter-btn" data-category="饮品">饮品</button>
+                <button class="filter-btn" data-category="零食">零食</button>
+                <button class="filter-btn" data-category="玩具">玩具</button>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- 商品卡片将由JavaScript动态生成 -->
+            </div>
+        </section>
+    </main>
+
+    <!-- 商品详情模态框 -->
+    <div class="modal" id="productModal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h3 id="modalName" class="modal-product-name"></h3>
+                    <div class="modal-category">
+                        <i class="fas fa-tag"></i>
+                        <span id="modalCategory"></span>
+                    </div>
+                    <div class="modal-points">
+                        <i class="fas fa-coins"></i>
+                        <span id="modalPoints"></span> 积分
+                    </div>
+                    <div class="modal-stock">
+                        <i class="fas fa-warehouse"></i>
+                        库存：<span id="modalStock"></span>
+                    </div>
+                    <div class="modal-description" id="modalDescription"></div>
+                    
+                    <!-- 管理员编辑区域 -->
+                    <div class="admin-edit-section" id="adminEditSection" style="display: none;">
+                        <h4><i class="fas fa-edit"></i> 商品信息编辑</h4>
+                        
+                        <div class="edit-form">
+                            <div class="form-group">
+                                <label><i class="fas fa-tag"></i> 商品名称</label>
+                                <input type="text" id="editName" class="form-input">
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="fas fa-folder"></i> 分类</label>
+                                    <select id="editCategory" class="form-input">
+                                        <option value="饮品">饮品</option>
+                                        <option value="零食">零食</option>
+                                        <option value="玩具">玩具</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label><i class="fas fa-coins"></i> 所需积分</label>
+                                    <input type="number" id="editPoints" min="0" class="form-input">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label><i class="fas fa-warehouse"></i> 库存数量</label>
+                                <div class="stock-control">
+                                    <button class="stock-btn" onclick="adjustStock(-10)">-10</button>
+                                    <button class="stock-btn" onclick="adjustStock(-1)">-1</button>
+                                    <input type="number" id="editStock" min="0" class="form-input stock-input">
+                                    <button class="stock-btn" onclick="adjustStock(1)">+1</button>
+                                    <button class="stock-btn" onclick="adjustStock(10)">+10</button>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label><i class="fas fa-image"></i> 商品图片URL</label>
+                                <input type="text" id="editImage" class="form-input" placeholder="https://example.com/image.jpg">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label><i class="fas fa-align-left"></i> 商品描述</label>
+                                <textarea id="editDescription" class="form-textarea" rows="3" placeholder="输入商品描述（可选）"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="edit-actions">
+                            <button class="save-btn" onclick="saveProductChanges()">
+                                <i class="fas fa-save"></i> 保存修改
+                            </button>
+                            <button class="delete-btn" onclick="deleteProduct()">
+                                <i class="fas fa-trash"></i> 删除商品
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 同步数据模态框 -->
+    <div class="modal" id="syncModal">
+        <div class="modal-overlay" onclick="closeSyncModal()"></div>
+        <div class="modal-content sync-modal-content">
+            <button class="modal-close" onclick="closeSyncModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="sync-modal-body">
+                <h2 class="sync-title">
+                    <i class="fas fa-sync-alt"></i>
+                    从管理系统同步数据
+                </h2>
+                
+                <div class="sync-steps">
+                    <div class="sync-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>打开管理系统</h3>
+                            <p>在新标签页中打开后台管理系统</p>
+                            <a href="https://manage.1024code.top/" target="_blank" class="manage-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                打开管理系统
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="sync-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>复制导出代码</h3>
+                            <p>复制下面的代码，在管理系统页面按 F12 打开控制台，粘贴并执行</p>
+                            <div class="code-block">
+                                <button class="copy-code-btn" onclick="copyExportCode()">
+                                    <i class="fas fa-copy"></i> 复制代码
+                                </button>
+                                <pre id="exportCode">// 从管理系统导出数据
+const data = {
+    students: JSON.parse(localStorage.getItem('students') || '[]'),
+    pointsStoreProducts: JSON.parse(localStorage.getItem('pointsStoreProducts') || '[]'),
+    courses: JSON.parse(localStorage.getItem('courses') || '[]'),
+    transactions: JSON.parse(localStorage.getItem('transactions') || '[]'),
+    exportDate: new Date().toISOString()
+};
+console.log('数据已准备，请复制下面的内容：');
+console.log(JSON.stringify(data));
+copy(JSON.stringify(data));
+alert('数据已复制到剪贴板！');</pre>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sync-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>粘贴数据并导入</h3>
+                            <p>将控制台复制的数据粘贴到下面的输入框中</p>
+                            <textarea id="syncDataInput" class="sync-input" placeholder="粘贴从管理系统获取的JSON数据..." rows="8"></textarea>
+                            <button class="import-btn" onclick="importSyncData()">
+                                <i class="fas fa-download"></i>
+                                导入数据
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sync-tip">
+                    <i class="fas fa-info-circle"></i>
+                    <div>
+                        <strong>💡 操作提示：</strong>
+                        <ul style="margin: 8px 0 0 20px; line-height: 1.8;">
+                            <li>执行代码后，数据会自动复制到剪贴板</li>
+                            <li>如未自动复制，请手动复制控制台输出的 JSON 数据</li>
+                            <li><strong>同步将完全替换</strong>所有学生信息和商品信息</li>
+                            <li>同步后建议立即点击"导出数据"保存备份</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>&copy; 2025 壹零贰肆少儿编程中心 | 积分商城</p>
+    </footer>
+
+    <script src="points-store.js"></script>
+</body>
+</html>
+

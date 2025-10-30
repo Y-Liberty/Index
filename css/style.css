@@ -317,119 +317,83 @@ a {
 
 /* ==================== 我的平台区域 ==================== */
 
-/* 平台卡片容器 */
+/* 平台卡片容器 - 使用和资源卡片相同的布局 */
 .platform-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 18px;
 }
 
-/* 平台卡片 - 彩色卡片 */
+/* 平台卡片 - 统一样式 */
 .platform-card {
     background: var(--bg-white);
+    padding: 22px 18px;
+    border-radius: var(--radius-md);
     border: 2px solid var(--border-light);
-    padding: 32px 28px;
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
     transition: var(--transition);
+    text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: relative;
-    overflow: hidden;
-}
-
-/* 卡片顶部装饰条 */
-.platform-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 5px;
-    background: linear-gradient(90deg, var(--primary-blue), var(--primary-purple), var(--primary-pink));
-}
-
-/* 卡片角标 */
-.platform-card::after {
-    content: '⭐';
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 1.2rem;
-    opacity: 0;
-    transition: var(--transition);
-}
-
-/* 卡片悬停效果 */
-.platform-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: var(--shadow-color);
-}
-
-.platform-card:hover::after {
-    opacity: 0.8;
 }
 
 /* 卡片图标 */
 .card-icon {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
+    font-size: 2.8rem;
+    margin-bottom: 12px;
     position: relative;
     z-index: 1;
+    transition: var(--transition);
 }
 
 /* 卡片标题 */
 .card-title {
-    font-size: 1.6rem;
+    font-size: 1.05rem;
     margin-bottom: 8px;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--text-dark);
     position: relative;
     z-index: 1;
 }
 
-/* 卡片副标题 */
+/* 卡片副标题（隐藏以保持简洁）*/
 .card-subtitle {
-    font-size: 0.95rem;
-    margin-bottom: 15px;
-    color: var(--text-gray);
-    position: relative;
-    z-index: 1;
-    font-weight: 500;
+    display: none;
 }
 
-/* 卡片描述 */
+/* 卡片描述（隐藏以保持简洁）*/
 .card-description {
-    font-size: 0.95rem;
-    line-height: 1.7;
-    margin-bottom: 20px;
-    flex-grow: 1;
-    color: var(--text-gray);
-    position: relative;
-    z-index: 1;
+    display: none;
 }
 
-/* 卡片底部 */
+/* 卡片底部（隐藏以保持简洁）*/
 .card-footer {
-    display: flex;
-    justify-content: flex-end;
+    display: none;
+}
+
+/* 添加简短说明文字 */
+.platform-card::after {
+    content: attr(data-desc);
+    font-size: 0.85rem;
+    color: var(--text-light);
+    line-height: 1.5;
     position: relative;
     z-index: 1;
 }
 
-/* 卡片链接 */
-.card-link {
-    font-weight: 600;
-    font-size: 1rem;
-    color: var(--primary-blue);
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
+/* 卡片悬停效果 */
+.platform-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: var(--shadow-lg);
+}
+
+.platform-card:hover .card-icon {
+    transform: scale(1.15);
 }
 
 /* 不同卡片的彩色背景和图标 */
 .card-main {
-    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-blue) 100%);
     border-color: var(--primary-blue);
 }
 
@@ -438,11 +402,11 @@ a {
 }
 
 .card-main:hover {
-    box-shadow: 0 12px 30px rgba(74, 144, 226, 0.25);
+    border-color: var(--primary-blue);
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-blue) 100%);
 }
 
 .card-oj {
-    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-orange) 100%);
     border-color: var(--primary-orange);
 }
 
@@ -451,11 +415,11 @@ a {
 }
 
 .card-oj:hover {
-    box-shadow: 0 12px 30px rgba(255, 159, 64, 0.25);
+    border-color: var(--primary-orange);
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-orange) 100%);
 }
 
 .card-blog {
-    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-pink) 100%);
     border-color: var(--primary-pink);
 }
 
@@ -464,7 +428,21 @@ a {
 }
 
 .card-blog:hover {
-    box-shadow: 0 12px 30px rgba(255, 107, 157, 0.25);
+    border-color: var(--primary-pink);
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-pink) 100%);
+}
+
+.card-store {
+    border-color: var(--primary-green);
+}
+
+.card-store .card-icon {
+    color: var(--primary-green);
+}
+
+.card-store:hover {
+    border-color: var(--primary-green);
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--light-green) 100%);
 }
 
 
@@ -620,8 +598,8 @@ a {
     
     /* 平台卡片调整 */
     .platform-cards {
-        grid-template-columns: 1fr;
-        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 15px;
     }
     
     /* 区块标题调整 */
@@ -674,16 +652,9 @@ a {
     }
     
     /* 平台卡片调整 */
-    .platform-card {
-        padding: 28px 22px;
-    }
-    
-    .card-icon {
-        font-size: 3rem;
-    }
-    
-    .card-title {
-        font-size: 1.4rem;
+    .platform-cards {
+        grid-template-columns: 1fr;
+        gap: 12px;
     }
     
     /* 区块标题调整 */
