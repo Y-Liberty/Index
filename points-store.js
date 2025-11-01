@@ -718,11 +718,24 @@ function importSyncData() {
     }
 }
 
+// 显示积分规则模态框
+function showPointsRules() {
+    document.getElementById('rulesModal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+// 关闭积分规则模态框
+function closeRulesModal() {
+    document.getElementById('rulesModal').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
 // ESC键关闭模态框
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         closeModal();
         closeSyncModal();
+        closeRulesModal();
     }
 });
 

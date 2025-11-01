@@ -15,10 +15,16 @@
                 <i class="fas fa-store"></i>
                 壹零贰肆积分商城
             </h1>
-            <a href="index.html" class="back-btn">
-                <i class="fas fa-arrow-left"></i>
-                返回首页
-            </a>
+            <div class="header-actions">
+                <a href="index.html" class="back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                    返回首页
+                </a>
+                <button class="rules-btn" onclick="showPointsRules()">
+                    <i class="fas fa-info-circle"></i>
+                    积分规则
+                </button>
+            </div>
         </div>
     </header>
 
@@ -229,6 +235,152 @@
                             </button>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 积分规则模态框 -->
+    <div class="modal" id="rulesModal">
+        <div class="modal-overlay" onclick="closeRulesModal()"></div>
+        <div class="modal-content rules-modal-content">
+            <button class="modal-close" onclick="closeRulesModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="rules-modal-body">
+                <h2 class="rules-title">
+                    <i class="fas fa-book"></i>
+                    积分规则说明
+                </h2>
+                
+                <!-- 课程积分 -->
+                <div class="rule-section">
+                    <div class="rule-header">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>课程学习积分</h3>
+                    </div>
+                    <div class="rule-content">
+                        <div class="rule-item">
+                            <div class="rule-name">按时上课</div>
+                            <div class="rule-desc">每完成1小时课程</div>
+                            <div class="rule-points">+5 积分</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 竞赛积分 -->
+                <div class="rule-section">
+                    <div class="rule-header">
+                        <i class="fas fa-trophy"></i>
+                        <h3>竞赛活动积分 - 省级</h3>
+                    </div>
+                    <div class="rule-content">
+                        <div class="rule-item">
+                            <div class="rule-name">参赛</div>
+                            <div class="rule-desc">参加省级竞赛</div>
+                            <div class="rule-points">+10 积分</div>
+                        </div>
+                        <div class="rule-item">
+                            <div class="rule-name">三等奖</div>
+                            <div class="rule-desc">获得省级竞赛三等奖</div>
+                            <div class="rule-points">+30 积分</div>
+                        </div>
+                        <div class="rule-item">
+                            <div class="rule-name">二等奖</div>
+                            <div class="rule-desc">获得省级竞赛二等奖</div>
+                            <div class="rule-points">+50 积分</div>
+                        </div>
+                        <div class="rule-item highlight">
+                            <div class="rule-name">一等奖</div>
+                            <div class="rule-desc">获得省级竞赛一等奖</div>
+                            <div class="rule-points">+100 积分</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="rule-section">
+                    <div class="rule-header">
+                        <i class="fas fa-trophy"></i>
+                        <h3>竞赛活动积分 - 全国级</h3>
+                    </div>
+                    <div class="rule-content">
+                        <div class="rule-item">
+                            <div class="rule-name">三等奖</div>
+                            <div class="rule-desc">获得全国级竞赛三等奖</div>
+                            <div class="rule-points">+150 积分</div>
+                        </div>
+                        <div class="rule-item">
+                            <div class="rule-name">二等奖</div>
+                            <div class="rule-desc">获得全国级竞赛二等奖</div>
+                            <div class="rule-points">+250 积分</div>
+                        </div>
+                        <div class="rule-item highlight">
+                            <div class="rule-name">一等奖</div>
+                            <div class="rule-desc">获得全国级竞赛一等奖</div>
+                            <div class="rule-points">+400 积分</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 竞赛积分提示 -->
+                <div class="rules-notice">
+                    <i class="fas fa-info-circle"></i>
+                    <p><strong>竞赛积分说明：</strong> 省级竞赛和全国级竞赛积分不叠加，只取最高分。例如同时获得省级一等奖和全国级二等奖，则只获得全国级二等奖的积分。</p>
+                </div>
+
+                <!-- 全勤积分 -->
+                <div class="rule-section">
+                    <div class="rule-header">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>全勤奖励积分</h3>
+                    </div>
+                    <div class="rule-content">
+                        <div class="rule-item">
+                            <div class="rule-name">月度全勤</div>
+                            <div class="rule-desc">当月所有课程全勤</div>
+                            <div class="rule-points">+30 积分</div>
+                        </div>
+                        <div class="rule-item">
+                            <div class="rule-name">季度全勤</div>
+                            <div class="rule-desc">连续3个月全勤</div>
+                            <div class="rule-points">+100 积分</div>
+                        </div>
+                        <div class="rule-item highlight">
+                            <div class="rule-name">年度全勤</div>
+                            <div class="rule-desc">连续12个月全勤</div>
+                            <div class="rule-points">+500 积分</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 作业完成度积分 -->
+                <div class="rule-section">
+                    <div class="rule-header">
+                        <i class="fas fa-tasks"></i>
+                        <h3>作业完成度积分</h3>
+                    </div>
+                    <div class="rule-content">
+                        <div class="rule-item">
+                            <div class="rule-name">良好完成</div>
+                            <div class="rule-desc">作业完成度 ≥ 80%</div>
+                            <div class="rule-points">+10 积分</div>
+                        </div>
+                        <div class="rule-item">
+                            <div class="rule-name">优秀完成</div>
+                            <div class="rule-desc">作业完成度 ≥ 90%</div>
+                            <div class="rule-points">+15 积分</div>
+                        </div>
+                        <div class="rule-item highlight">
+                            <div class="rule-name">完美完成</div>
+                            <div class="rule-desc">作业完成度 = 100%</div>
+                            <div class="rule-points">+20 积分</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="rules-footer">
+                    <i class="fas fa-lightbulb"></i>
+                    <p><strong>温馨提示：</strong> 积分可累积使用，在积分商城中兑换精美礼品。保持良好的学习习惯，获得更多积分奖励！</p>
                 </div>
             </div>
         </div>
